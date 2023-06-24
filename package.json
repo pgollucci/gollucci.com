@@ -1,0 +1,52 @@
+{
+  "name": "website-gollucci-com",
+  "description": "NextJS, Typescript, React, TailwindCSS Personal Landing Page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgollucci/gollucci.com"
+  },
+  "version": "0.1.0",
+  "author": {
+    "name": "Philip M. Gollucci",
+    "email": "pgollucci@p6m7g8.com",
+    "url": "https://www.linkedin.com/in/pgollucci",
+    "organization": true
+  },
+  "keywords": [
+    "aws",
+    "nextjs",
+    "p6",
+    "projen",
+    "react",
+    "tailwindcss"
+  ],
+  "engines": {
+    "node": ">= 12.22.0"
+  },
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.18",
+    "@types/node": "20.3.1",
+    "@types/react": "18.2.13",
+    "@types/react-dom": "18.2.6",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.43.0",
+    "eslint-config-next": "^12.0.4",
+    "next": "13.4.7",
+    "postcss": "^8.4.24",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwindcss": "^3.3.2",
+    "typescript": "5.1.3"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.5"
+  }
+}
