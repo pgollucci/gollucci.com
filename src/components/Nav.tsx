@@ -16,14 +16,14 @@ const Nav = (): ReactElement => {
   const pathname = usePathname();
 
   return (
-    <nav className="mt-4 space-x-1 text-right" aria-label="TopBar">
+    <nav className="text-center" aria-label="TopBar" role="navigation">
       {navigation.map((item) => (
         <Link
           key={item.href}
           href={item.href}
           className={pathname === item.href ?
-            'bg-blue-300 text-gray-900 items-center px-3 py-2 text-2xl font-medium rounded-md' :
-            'text-gray-600 hover:bg-blue-300 hover:text-gray-900 items-center px-3 py-2 text-2xl font-medium rounded-md'}>
+            'bg-blue-300 text-gray-900 rounded-md text-center px-4' :
+            'text-gray-600 hover:bg-blue-300 hover:text-gray-900 rounded-md px-4'}>
               {item.name}
         </Link>
       ))}

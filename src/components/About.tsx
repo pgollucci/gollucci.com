@@ -3,8 +3,7 @@ import { ReactElement } from "react";
 
 const About = (): ReactElement => (
   <>
-    <div className="grid m-8">
-      <div className="flex items-center">
+      <div className="flex flex-col items-center">
         <div>
           <Image
             className="rounded-full"
@@ -28,7 +27,16 @@ const About = (): ReactElement => (
         </div>
       </div>
 
-      <div className="flex items-center mt-8">
+      <div className="flex flex-col items-center mt-8">
+        <div>
+          <Image
+            className="rounded-full"
+            src="/awscb.png"
+            alt="animal"
+            width={450}
+            height={250}
+          />
+        </div>
         <div className="ml-4 prose">
           <h4 className="text-2xl">One of ~2,000 World Wide in this VIP AWS Program.</h4>
           <ul className="ml-8 list-disc">
@@ -41,18 +49,9 @@ const About = (): ReactElement => (
             <li>Member, AWS IQ Experts (verified)</li>
           </ul>
         </div>
-        <div>
-          <Image
-            className="rounded-full"
-            src="/awscb.png"
-            alt="animal"
-            width={450}
-            height={250}
-          />
-        </div>
       </div>
 
-      <div className="flex items-center mt-8">
+      <div className="flex flex-col items-center mt-8">
         <div>
           <Image
             className="rounded-full"
@@ -73,13 +72,7 @@ const About = (): ReactElement => (
         </div>
       </div>
 
-      <div className="flex items-center mt-8">
-        <div className="ml-4 prose">
-          <h4 className="text-2xl">18th most changes to FreeBSD ports World Wide.</h4>
-          <ul className="ml-8 list-disc">
-            <li>Instrumental in Apache Software Foundation, ruby, and perl ports</li>
-          </ul>
-        </div>
+      <div className="flex flex-col items-center mt-8">
         <div>
           <Image
             className="rounded-full"
@@ -89,9 +82,13 @@ const About = (): ReactElement => (
             height={250}
           />
         </div>
+        <div className="ml-4 prose">
+          <h4 className="text-2xl">18th most changes to FreeBSD ports World Wide.</h4>
+          <ul className="ml-8 list-disc">
+            <li>Instrumental in Apache Software Foundation, ruby, and perl ports</li>
+          </ul>
+        </div>
       </div>
-
-    </div>
   </>
 );
 

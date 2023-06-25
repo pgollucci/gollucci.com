@@ -13,14 +13,20 @@ const Footer = (): ReactElement => (
     <>
       <footer className="w-full">
         <div className="p-4 m-4 border-t border-gray-700">
-          <div className="flex space-x-6 justify-begin">
-          {
-            social.map((item) => (
-              <span key={item.name}>
-                <a className="hover:text-blue-500" href={item.href}>{item.name}</a>
-              </span>
-            ))
-          }
+          <div className="flex justify-between">
+            <div className="flex space-x-6">
+            {
+              social.map((item) => (
+                <span key={item.name}>
+                  <a className="hover:text-blue-500" href={item.href}>{item.name}</a>
+                </span>
+              ))
+            }
+            </div>
+            <ul className="text-right">
+              <li><a className="hover:text-blue-500" href="https://github.com/pgollucci/gollucci.com">NextJS13</a></li>
+              <li><a className="hover:text-blue-500" href="https://github.com/p6m7g8/p6-cdk-website-plus-app">AWS CDK</a></li>
+            </ul>
           </div>
         </div>
       </footer>
