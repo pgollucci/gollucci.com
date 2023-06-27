@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { ReactElement } from 'react';
 
 export interface ArticleProps {
@@ -21,8 +22,11 @@ const Article = (article: ArticleProps): ReactElement => {
           <div className="mt-2">
             {article.categories.map(category =>
               <span key={category} className="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium leading-5 bg-indigo-100 text-indigo-800 mr-2">
-                {category}
-              </span>)}
+                 <Link href={`/news?category=${category}`}>
+                  {category}
+                </Link>
+              </span>
+            )}
           </div>
     </div>
     )
