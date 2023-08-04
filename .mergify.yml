@@ -5,12 +5,8 @@ queue_rules:
     conditions:
       - "#approved-reviews-by>=1"
       - -label~=(do-not-merge)
-      - status-success=build
-      - status-success=package-js
-      - status-success=package-java
-      - status-success=package-python
-      - status-success=package-dotnet
-      - status-success=package-go
+      - status-success=pull-request-build
+      - status-success=pull-request-lint
 pull_request_rules:
   - name: Automatic merge on approval and successful build
     actions:
@@ -25,9 +21,5 @@ pull_request_rules:
     conditions:
       - "#approved-reviews-by>=1"
       - -label~=(do-not-merge)
-      - status-success=build
-      - status-success=package-js
-      - status-success=package-java
-      - status-success=package-python
-      - status-success=package-dotnet
-      - status-success=package-go
+      - status-success=pull-request-build
+      - status-success=pull-request-lint
