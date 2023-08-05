@@ -1,3 +1,11 @@
+- url: "https://www.linkedin.com/posts/pgollucci_recruiting-is-a-cluster-episode-1-philip-activity-6717813398467313664-Jt6H"
+  src: "/cluster.png"
+  title: "Recruiting is a Cluster Episode 1"
+  blurb: "Podcast to share a must-listen story about a six-stage interview process for a Data Scientist. He was asked to conduct the final interview and technical screen where a candidate used a 'ringer.'"
+  categories:
+    - "LinkedIn"
+    - "Recruiting"
+    - "Podcast"
 - url: "https://www.youtube.com/watch?v=jXPDz1G8rqI"
   src: "/youtube_video.png"
   title: "Women in Tech: Inna Saman"
