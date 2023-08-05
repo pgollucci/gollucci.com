@@ -1,3 +1,13 @@
+- url: "https://www.trexsolutionsllc.com/announcing-t-rex-smile-and-its-supporting-framework/"
+  src: "/t-rex_smile.png"
+  title: "Announcing T-Rex SMILE® and its Supporting Framework"
+  blurb: "The first such trademarked solution is called T-Rex SMILE®: Secured, Managed, Infrastructures, Landing Zones, Environments. T-Rex SMILE® enables faster, simpler, more secure AND cost-effective cloud migrations via continuous configuration automation."
+  categories:
+    - "Cloud Adoption"
+    - "Cybersecurity"
+    - "Data Engineering"
+    - "Analytics"
+    - "Systems Integration/Development"
 - url: "https://www.trexsolutionsllc.com/t-rex-uncomn-take-first-place-at-aws-public-sector-gameday-2020/"
   src: "/gd.png"
   title: "T-Rex AWS Public Sector Gameday 2020"
