@@ -1,3 +1,11 @@
+- url: "https://docs.google.com/presentation/d/1cmF8VczJbsQVv-RCXfNwK3a7j7lshm_l/edit#slide=id.g112be55fad8_0_483"
+  src: "/community.png"
+  title: "Building a Community Around Technology"
+  blurb: "Building a Community Around Technology"
+  categories:
+    - "Presentation"
+    - "Community"
+    - "ASF"
 - url: "https://www.comet.com/site/customers/carerev/"
   src: "/comet.png"
   title: "Comet - CareRev"
