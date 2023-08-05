@@ -1,3 +1,10 @@
+- url: "https://www.youtube.com/watch?v=jXPDz1G8rqI"
+  src: "/youtube_video.png"
+  title: "Women in Tech: Inna Saman"
+  blurb: "Women in Tech: Inna Saman"
+  categories:
+    - "Video"
+    - "YouTube"
 - url: "https://medium.com/@pgollucci/2022-how-and-why-do-i-interview-people-the-way-i-do-4e09ebc58307"
   src: "/interviewing.jpg"
   title: "2022: How and Why do I interview people the way I do."
