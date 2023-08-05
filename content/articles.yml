@@ -1,3 +1,12 @@
+- url: "https://freebsdfoundation.org/blog/ridechargetaximagic-testimonial/"
+  src: "/fbsd.jpg"
+  title: "RideCharge/TaxiMagic Testimonial"
+  blurb: "We now use this update to quickly update every machine to maintain PCI DSS Level 1 compliance"
+  categories:
+    - "Work"
+    - "FBSD"
+    - "TaxiMagic"
+    - "Community"
 - url: "https://www.linkedin.com/feed/update/urn:li:activity:7072287684550914049/"
   src: "/8pcnt.png"
   title: "8% is an echo chamber"
