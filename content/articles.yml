@@ -1,3 +1,11 @@
+- url: "https://www.trexsolutionsllc.com/t-rex-at-aws-reinvent-2020/"
+  src: "/reinvent.png"
+  title: "T-Rex at AWS re:Invent 2020"
+  blurb: "T-Rex attending AWS re:Invent 2020."
+  categories:
+    - "AWS"
+    - "re:Invent"
+    - "2020"
 - url: "https://www.trexsolutionsllc.com/t-rexs-ai-ml-experience-through-apn-immersion-day/"
   src: "/immersion.png"
   title: "T-Rex AI/ML Experience through APN Immersion Day"
