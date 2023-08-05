@@ -1,3 +1,10 @@
+- url: "https://www.platohq.com/articles/guiding-your-team-through-a-data-driven-transformation-502367940"
+  src: "/plato-1.png"
+  title: "Guiding Your Team Through a Data-Driven Transformation"
+  blurb: "Governing a transactional application—like amazon.com, for instance—is very different from governing a data environment. Most people in the industry mainly have experience with transactional applications."
+  categories:
+    - "Digital Transformation"
+    - "Data"
 - url: "https://www.platohq.com/articles/how-to-streamline-your-recruitment-process-for-quick-and-effective-hiring-1357204008"
   src: "/plato-2.png"
   title: "How to Streamline Your Recruitment Process for Quick and Effective Hiring"
