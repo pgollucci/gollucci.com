@@ -1,3 +1,11 @@
+- url: "https://dev.to/aws-builders/projen-external-project-types-je"
+  src: "/pj-ext-types.png"
+  title: "Projen - External Project Types"
+  blurb: "Extensibility is king."
+  categories:
+    - "Open Source"
+    - "projen"
+    - "AWS"
 - url: "https://dev.to/aws-builders/1yr-after-projen-s-debut-19pf"
   src: "/pj-graph.png"
   title: "1yr after projen debut"
