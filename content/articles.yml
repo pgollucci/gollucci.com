@@ -1,3 +1,11 @@
+- url: "https://dev.to/aws-builders/projen-the-next-cdk-suprise-13b2"
+  src: "/pj.png"
+  title: "Projen: The Next CDK Surprise!"
+  blurb: "State of the Union Why projen Thats a really good question, is it not? After all, there is a new templator or scaffolded practically daily."
+  categories:
+    - "Open Source"
+    - "projen"
+    - "AWS"
 - url: "http://archive.apachecon.com/2005/US/html/sessions.html#1571"
   src: "/perl.png"
   title: "Trainer - ApacheCon US 2005 Full Day Tutorial - Practical mod_perl"
