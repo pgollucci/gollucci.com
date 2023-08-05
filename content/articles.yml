@@ -1,3 +1,13 @@
+- url: "https://docs.google.com/document/d/150GGT65l7lDxcWcei422YZ9WSAliTgehjDfJnGv-SEo/edit?pli=1"
+  src: "/faspz.png"
+  title: "Presenter - ApacheCon 2012 Session - FreeBSD + ASF software & philosophy + ZFS == large $$ bonuses from your boss"
+  blurb: "Being appropriately lazy"
+  categories:
+    - "Open Source"
+    - "ASF"
+    - "FreebSD"
+    - "ZFS"
+    - "Infrastructure"
 - url: "https://infra.apache.org/blog/apache_org_04_09_2010"
   src: "/hack.png"
   title: "apache.org incident report for 04092010"
