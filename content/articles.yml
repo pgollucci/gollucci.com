@@ -1,3 +1,11 @@
+- url: "https://www.trexsolutionsllc.com/t-rex-internal-aws-gameday/"
+  src: "/igd.png"
+  title: "T-Rex Internal AWS Gameday"
+  blurb: "An internal AWS gameday held by T-Rex."
+  categories:
+    - "AWS"
+    - "Gameday"
+    - "Internal"
 - url: "https://www.trexsolutionsllc.com/t-rexs-ai-ml-experience-through-apn-immersion-day/"
   src: "/immersion.png"
   title: "T-Rex AI/ML Experience through APN Immersion Day"
