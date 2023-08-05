@@ -1,3 +1,11 @@
+- url: "https://www.trexsolutionsllc.com/t-rex-wins-amazon-web-services-honor/"
+  src: "/cube.png"
+  title: "T-Rex: Most Customer Obsessed Mission Based Win - Federal Civilian."
+  blurb: "100% availability since the start of operations in March."
+  categories:
+    - "The Tech Trek"
+    - "Podcast"
+    - "Agile"
 - url: "https://dev.to/aws-builders/projen-external-project-types-je"
   src: "/pj-ext-types.png"
   title: "Projen - External Project Types"
