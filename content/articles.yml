@@ -1,3 +1,10 @@
+- url: "https://www.linkedin.com/feed/update/urn:li:activity:7065353209246015489/"
+  src: "/ethics.jpg"
+  title: "5/6 AI: Responsible Artificial Intelligence Institute (#RAII)"
+  blurb: "Meta has faced criticism for bias in its AI, particularly with its facial recognition systems, which were found to perform less reliably on people with darker skin​"
+  categories:
+    - "LinkedIn"
+    - "AI"
 - url: "https://www.linkedin.com/feed/update/urn:li:activity:7066776981731700737/"
   src: "/fluency.png"
   title: "6/6 AI: #TechFluency in the Workplace: A New Standard?"
