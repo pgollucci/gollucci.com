@@ -1,3 +1,11 @@
+- url: "http://archive.apachecon.com/2005/US/html/sessions.html#1571"
+  src: "/perl.png"
+  title: "Trainer - ApacheCon US 2005 Full Day Tutorial - Practical mod_perl"
+  blurb: "Paid."
+  categories:
+    - "Open Source"
+    - "ASF"
+    - "mod_perl"
 - url: "https://docs.huihoo.com/apache/apachecon/us2011/11-Friday/C-Infrastructure-and-DevOps/C-1000-Inside-the-ASF-Infrastructure-Team.pdf"
   src: "/iasft.png"
   title: "Presenter - ApacheCon 2012 Session - Inside the ASF Infrastructure Team"
