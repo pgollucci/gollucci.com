@@ -1,3 +1,11 @@
+- url: "https://www.comet.com/site/customers/carerev/"
+  src: "/comet.png"
+  title: "Comet - CareRev"
+  blurb: "Comet’s Slack Community was one of the things that made the onboarding and implementation process for CareRev friction-free."
+  categories:
+    - "Comet"
+    - "CareRev"
+    - "Customer Story"
 - url: "https://www.linkedin.com/pulse/have-we-seen-first-ever-ide-consolidation-gollucci-pmp-candidate/"
   src: "/ide.png"
   title: "First Ever IDE Consolidation?"
