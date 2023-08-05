@@ -1,3 +1,12 @@
+- url: "https://www.prnewswire.com/news-releases/carerev-launches-breakthrough-technology-to-optimize-healthcare-shift-rates-301848704.htm"
+  src: "/linews.png"
+  title: "CareRev Launches Breakthrough Technology to Optimize Healthcare Shift Rates"
+  blurb: "CareRev's Smart Rates reduces labor costs by 18%; fills shifts 50% faster"
+  categories:
+    - "LinkedIn"
+    - "AWS"
+    - "AI/ML"
+    - "Smart"
 - url: "https://www.linkedin.com/pulse/certifications-treasures-trash-philip-gollucci/"
   src: "/certifications.png"
   title: "Certifications: Treasures or Trash"
