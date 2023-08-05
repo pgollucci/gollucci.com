@@ -1,3 +1,11 @@
+- url: "https://www.linkedin.com/feed/update/urn:li:activity:7072287684550914049/"
+  src: "/8pcnt.png"
+  title: "8% is an echo chamber"
+  blurb: "Its a people problem not technology"
+  categories:
+    - "LinkedIn"
+    - "Skills"
+    - "AWS"
 - url: "https://www.linkedin.com/posts/pgollucci_awsdeveloper-awscertified-awscertification-activity-6894708723982356481-hHZ9"
   src: "/certs.jpg"
   title: "AWS Job Task Analysis (JTA)"
