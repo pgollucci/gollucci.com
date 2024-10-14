@@ -11,6 +11,7 @@ export default antfu({
     '.pnpm-store/',
     '.vscode/settings.json',
     'next-env.d.ts',
+    'out/',
     'package.json',
     'src/dotenv.ts',
     'src/pages/index.tsx',
