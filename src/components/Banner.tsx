@@ -1,8 +1,10 @@
-import { ReactElement } from "react";
+import type { ReactElement } from 'react'
 
-const Banner = (): ReactElement =>(
+function Banner(): ReactElement {
+  return (
     <>
     </>
-)
+  )
+}
 
-export default Banner;
+export default Banner

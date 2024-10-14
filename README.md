@@ -8,29 +8,29 @@ Gollucci.com website
   - [Table of Contents](#table-of-contents)
   - [Summary](#summary)
     - [Local dev](#local-dev)
-    - [Deploy](#deploy)
+    - [Build](#build)
   - [Author](#author)
 
 ## Summary
 
-- Next v13
+- Next v14
 - Typescript
 - React
+- Tailwind
+- Eslint v9 w/ Flatfile
 
 ### Local dev
 
 ```bash
-npx next dev
+pnpm run dev
 ```
 
-### Deploy
+### Build
 
 ```bash
-npx next build
+npx run build
 ```
 
 ## Author
 
 Philip M . Gollucci <philip@gollucci.com>
-
-

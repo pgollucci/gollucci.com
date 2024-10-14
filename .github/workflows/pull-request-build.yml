@@ -1,4 +1,5 @@
 name: pull-request-build
+
 on:
   pull_request_target:
     types:
@@ -8,16 +9,29 @@ on:
       - reopened
       - ready_for_review
       - edited
+
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
         with:
-          node-version: 18
-          cache: 'yarn'
-      - run: npm install -g yarn
-      - run: yarn install --frozen-lockfile
-      - run: yarn build
+          node-version: 22
+          cache: pnpm
+
+      - uses: pnpm/action-setup@v4
+        with:
+          run_install: true
+
+      - name: Disable Next.js Telemetry
+        run: echo "NEXT_TELEMETRY_DISABLED=1" >> "$GITHUB_ENV"
+
+      - name: Build project
+        run: pnpm install
+
+      - name: Build project
+        run: pnpm run build
