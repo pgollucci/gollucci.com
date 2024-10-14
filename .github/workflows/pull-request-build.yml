@@ -20,7 +20,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: 20
 
       - name: Disable Next.js Telemetry
         run: echo "NEXT_TELEMETRY_DISABLED=1" >> "$GITHUB_ENV"
