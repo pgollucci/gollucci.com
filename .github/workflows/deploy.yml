@@ -9,25 +9,58 @@ jobs:
     name: Deploy
     runs-on: ubuntu-latest
     permissions:
-      id-token: write # This is required for requesting the JWT
-      contents: read  # This is required for actions/checkout
+      id-token: write
+      contents: read
+      secrets: read
+
     steps:
-      - uses: aws-actions/configure-aws-credentials@v2
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          aws-region: ${{ secrets.AWS_REGION }}
-          role-to-assume: ${{ secrets.AWS_ROLE }}
-          role-session-name: ${{ secrets.AWS_SESSION_NAME }}
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+          node-version: 22
+          cache: 'pnpm'
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
         with:
-          node-version: 18
-          cache: 'yarn'
-      - run: npm install -g yarn
-      - run: yarn install --frozen-lockfile
-      - run: yarn build
-      - run: aws s3 sync out s3://${{ secrets.BUCKET_NAME }} --no-progress --follow-symlinks --delete --region ${{ secrets.AWS_REGION }}
-      - uses: chetan/invalidate-cloudfront-action@v2
+          run_install: true
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v3
+        with:
+          aws-region: $AWS_REGION
+          role-to-assume: $AWS_ROLE
+          role-session-name: $AWS_SESSION_NAME
         env:
           AWS_REGION: ${{ secrets.AWS_REGION }}
-          DISTRIBUTION: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-          PATHS: '/*'
+          AWS_ROLE: ${{ secrets.AWS_ROLE }}
+          AWS_SESSION_NAME: ${{ secrets.AWS_SESSION_NAME }}
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ~/.pnpm-store
+          key: pnpm-store-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            pnpm-store-${{ runner.os }}-
+
+      - name: Build project
+        run: pnpm build
+
+      - name: Sync to S3
+        env:
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          BUCKET_NAME: ${{ secrets.BUCKET_NAME }}
+        run: aws s3 sync out s3://$BUCKET_NAME --no-progress --follow-symlinks --delete --region $AWS_REGION
+
+      - name: Invalidate CloudFront Cache
+        uses: chetan/invalidate-cloudfront-action@v2
+        with:
+          distribution-id: $CLOUDFRONT_DISTRIBUTION_ID
+          paths: '/*'
+        env:
+          AWS_REGION: ${{ secrets.AWS_REGION }}
+          CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
