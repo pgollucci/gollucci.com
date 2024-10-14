@@ -13,4 +13,5 @@ coverage/
 dist/
 logs
 node_modules/
+out/
 pnpm-debug.log*
