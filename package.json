@@ -1,11 +1,30 @@
 {
-  "name": "p6-template-ts-eslint-jest-pnpm",
-  "type": "module",
-  "version": "1.0.0",
-  "description": "",
-  "author": "",
+  "name": "website-gollucci-com",
+  "description": "NextJS, Typescript, React, TailwindCSS Personal Landing Page",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pgollucci/gollucci.com"
+  },
+  "version": "0.2.0",
+  "author": {
+    "name": "Philip M. Gollucci",
+    "email": "pgollucci@p6m7g8.com",
+    "url": "https://www.linkedin.com/in/pgollucci",
+    "organization": true
+  },
+  "keywords": [
+    "aws",
+    "nextjs",
+    "p6",
+    "projen",
+    "react",
+    "tailwindcss"
+  ],
+  "engines": {
+    "node": ">= 12.22.0"
+  },
   "license": "Apache-2.0",
-  "keywords": [],
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "pnpm run lint && pnpm run test && next dev",
