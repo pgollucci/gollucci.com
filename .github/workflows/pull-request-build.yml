@@ -16,27 +16,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: pnpm
-
-      - uses: pnpm/action-setup@v4
-        with:
-          run_install: true
-
-      - name: Cache pnpm store
-        uses: actions/cache@v4
-        with:
-          path: ~/.pnpm-store
-          key: pnpm-store-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            pnpm-store-${{ runner.os }}-
-
-      - name: Disable Next.js Telemetry
-        run: echo "NEXT_TELEMETRY_DISABLED=1" >> "$GITHUB_ENV"
-
-      - name: Build project
-        run: pnpm run build
