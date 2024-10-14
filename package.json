@@ -6,6 +6,7 @@
     "url": "https://github.com/pgollucci/gollucci.com"
   },
   "version": "0.2.0",
+  "packageManager": "pnpm@9.12.1",
   "author": {
     "name": "Philip M. Gollucci",
     "email": "pgollucci@p6m7g8.com",
@@ -21,7 +22,7 @@
     "tailwindcss"
   ],
   "engines": {
-    "node": ">= 12.22.0"
+    "node": ">= 22.0.0"
   },
   "license": "Apache-2.0",
   "type": "module",
