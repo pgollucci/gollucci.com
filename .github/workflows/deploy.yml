@@ -5,13 +5,12 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  deploy:
     name: Deploy
     runs-on: ubuntu-latest
     permissions:
       id-token: write
       contents: read
-      secrets: read
 
     steps:
       - name: Checkout code
