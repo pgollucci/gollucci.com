@@ -41,7 +41,9 @@
     "test/**/*.ts",
     "test/**/*.tsx",
     "jest.config.ts",
-    "jest.setup.tsx"
+    "jest.setup.tsx",
+    "tailwind.config.ts",
+    "next.config.ts"
   ],
   "exclude": [
     "node_modules",
