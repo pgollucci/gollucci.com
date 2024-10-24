@@ -20,10 +20,12 @@ export default antfu({
   plugins: {
     react,
     'react-hooks': reactHooks,
-    '@next/eslint-plugin-next': nextPlugin,
+    'next': nextPlugin,
     tailwindcss,
   },
+  extends: ['next/core-web-vitals'],
   languageOptions: {
+    ecmaVersion: 'latest',
     parserOptions: {
       ecmaFeatures: {
         jsx: true,
@@ -35,8 +37,8 @@ export default antfu({
     'react/react-in-jsx-scope': 'off',
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'error',
-    // '@next/next/no-img-element': 'error',
-    // '@next/next/no-page-custom-font': 'error',
+    'next/no-img-element': 'error',
+    // 'next/no-page-custom-font': 'error',
     'tailwindcss/classnames-order': 'error',
   },
   settings: {
