@@ -1,4 +1,3 @@
-// src/pages/_document.tsx
 import { Head, Html, Main, NextScript } from 'next/document'
 
 export default function Document() {
@@ -8,7 +7,6 @@ export default function Document() {
         <meta name="description" content="CV" />
         <meta charSet="UTF-8" />
         <link rel="icon" href="/favicon.ico" />
-        {/* <link rel="stylesheet" href="/styles.css" /> */}
       </Head>
       <body>
         <Main />
