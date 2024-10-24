@@ -9,7 +9,7 @@ export default antfu({
   ignores: [
     '.mergify.yml',
     '.pnpm-store/',
-    '.vscode/settings.json',
+    '.vscode',
     'next-env.d.ts',
     'out/',
     'package.json',
