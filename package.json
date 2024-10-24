@@ -27,7 +27,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm run lint && pnpm run test && next dev",
+    "dev": "pnpm run lint && pnpm run test && NEXT_TURBOPACK_TRACING=1 next dev --turbo",
     "build": "pnpm run lint && pnpm run test && next build -d",
     "start": "pnpm run build && pnpm serve out",
     "lint": "eslint .",
