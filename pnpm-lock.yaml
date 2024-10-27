@@ -35,11 +35,6 @@ importers:
       react:
         specifier: 19.0.0-rc-1631855f-20241023
         version: 19.0.0-rc-1631855f-20241023
-      "react\n":
-        specifier: |
-          link:@testing-library/react
-        version: |
-          link:@testing-library/react
       react-dom:
         specifier: 19.0.0-rc-1631855f-20241023
         version: 19.0.0-rc-1631855f-20241023(react@19.0.0-rc-1631855f-20241023)
