@@ -7,6 +7,7 @@ import tailwindcss from 'eslint-plugin-tailwindcss'
 export default antfu({
   //  files: ['jest.config.ts', 'jest.setup.tsx', 'src/**/*.tsx', 'src/**/*.ts', 'test/**/*.tsx', 'test/**/*.ts'],
   ignores: [
+    '.github/',
     '.mergify.yml',
     '.pnpm-store/',
     '.vscode',
