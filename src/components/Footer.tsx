@@ -25,7 +25,7 @@ function Footer(): ReactElement {
               }
             </div>
             <ul className="text-right">
-              <li><a className="hover:text-blue-500" href="https://github.com/pgollucci/gollucci.com">Next.js 15.0.0-canary.190</a></li>
+              <li><a className="hover:text-blue-500" href="https://github.com/pgollucci/gollucci.com">Next.js 15.0.1</a></li>
               <li><a className="hover:text-blue-500" href="https://github.com/p6m7g8/p6-cdk-website-plus-app">AWS CDK</a></li>
             </ul>
           </div>
