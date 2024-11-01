@@ -17,6 +17,15 @@ jobs:
         run: |
           curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -
           sudo apt-get install -y nodejs
+          echo /opt/hostedtoolcache/node/22.10.0/x64/bin >> $GITHUB_PATH
+      - name: Check node
+        run: |
+          ls -alFh /opt/hostedtoolcache/node/
+          echo $PATH
+          which node
+          which npm
+          node -v
+          npm -v
       - name: Restore NPM node_modules
         uses: actions/cache/restore@v4.1.2
         with:
