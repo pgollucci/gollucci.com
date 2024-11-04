@@ -27,7 +27,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "pnpm run lint && pnpm run test && NEXT_TURBOPACK_TRACING=1 next dev --turbo",
+    "dev": "pnpm run lint && pnpm run test && next dev",
     "build": "pnpm run lint && pnpm run test && next build -d",
     "start": "pnpm run build && pnpm serve out",
     "lint": "eslint .",
@@ -37,7 +37,9 @@
     "type": "tsc --noEmit"
   },
   "dependencies": {
-    "@next/mdx": "^15.0.2",
+    "@mdx-js/loader": "^2.3.0",
+    "@mdx-js/react": "^3.1.0",
+    "@next/mdx": "^13.0.0",
     "@tailwindcss/typography": "^0.5.15",
     "buffer": "^6.0.3",
     "dotenv": "^16.4.5",
