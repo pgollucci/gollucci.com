@@ -59,7 +59,7 @@ const components = {
   html: (props: any) => <html className="mdx-html" {...props} />,
   i: (props: any) => <i className="mdx-i" {...props} />,
   iframe: (props: any) => <iframe className="mdx-iframe" {...props} />,
-  img: (props: any) => <img className="mdx-img" {...props} />,
+  // img: (props: any) => <img className="mdx-img" {...props} />,
   input: (props: any) => <input className="mdx-input" {...props} />,
   ins: (props: any) => <ins className="mdx-ins" {...props} />,
   kbd: (props: any) => <kbd className="mdx-kbd" {...props} />,
