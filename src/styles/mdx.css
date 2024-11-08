@@ -1,0 +1,476 @@
+.mdx-article {
+  @apply font-serif text-[#333]  max-w-[90%] mx-auto my-5 p-5 bg-white rounded-lg shadow-md leading-relaxed;
+}
+
+/* .mdx-article {
+  @apply bg-white p-5 rounded-lg shadow-md max-w-3xl mx-auto my-5;
+} */
+
+.mdx-article h1,
+.mdx-article h2,
+.mdx-article h3,
+.mdx-article h4,
+.mdx-article h5,
+.mdx-article h6 {
+  @apply font-['Helvetica_Neue'] leading-tight transition-all duration-300 my-4;
+}
+
+.mdx-article h1 {
+  @apply text-primary text-4xl font-bold;
+}
+
+.mdx-article h2 {
+  @apply text-primary text-3xl font-bold;
+}
+
+.mdx-article h3 {
+  @apply text-primary text-2xl font-semibold;
+}
+
+.mdx-article h4 {
+  @apply text-primary text-xl font-semibold;
+}
+
+.mdx-article h5 {
+  @apply text-primary text-lg font-normal;
+}
+
+.mdx-article h6 {
+  @apply text-primary text-base font-normal;
+}
+
+.mdx-a {
+  @apply text-tertiary hover:underline;
+}
+
+.mdx-abbr {
+  @apply font-semibold border-b border-dotted;
+}
+
+.mdx-address {
+  @apply not-italic text-gray-700;
+}
+
+.mdx-area {
+  @apply hidden;
+}
+
+.mdx-aside {
+  @apply bg-gray-100 p-4 rounded;
+}
+
+.mdx-audio {
+  @apply w-full;
+}
+
+.mdx-b {
+  @apply font-bold;
+}
+
+.mdx-base {
+  @apply hidden;
+}
+
+.mdx-bdi {
+  @apply text-gray-800;
+}
+
+.mdx-bdo {
+  @apply text-gray-800;
+}
+
+.mdx-blockquote {
+  @apply italic text-gray-600 my-4 pl-4 border-l-4 border-gray-300;
+}
+
+.mdx-body {
+  @apply font-sans text-gray-800 leading-relaxed;
+}
+
+.mdx-br {
+  @apply hidden;
+}
+
+.mdx-button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600;
+}
+
+.mdx-canvas {
+  @apply w-full h-auto border rounded;
+}
+
+.mdx-caption {
+  @apply text-sm text-gray-500;
+}
+
+.mdx-cite {
+  @apply italic text-gray-600;
+}
+
+.mdx-code {
+  @apply font-mono bg-gray-200 p-1 rounded text-sm;
+}
+
+.mdx-col {
+  @apply hidden;
+}
+
+.mdx-colgroup {
+  @apply hidden;
+}
+
+.mdx-data {
+  @apply text-gray-800;
+}
+
+.mdx-datalist {
+  @apply text-gray-700;
+}
+
+.mdx-dd {
+  @apply ml-4;
+}
+
+.mdx-del {
+  @apply line-through text-red-600;
+}
+
+.mdx-details {
+  @apply border rounded p-3;
+}
+
+.mdx-dfn {
+  @apply italic;
+}
+
+.mdx-dialog {
+  @apply p-4 bg-gray-100 rounded shadow;
+}
+
+.mdx-div {
+  @apply my-4;
+}
+
+.mdx-dl {
+  @apply space-y-2;
+}
+
+.mdx-dt {
+  @apply font-bold;
+}
+
+.mdx-em {
+  @apply italic;
+}
+
+.mdx-embed {
+  @apply w-full h-auto;
+}
+
+.mdx-fieldset {
+  @apply border p-3 rounded;
+}
+
+.mdx-figcaption {
+  @apply text-sm text-gray-500;
+}
+
+.mdx-figure {
+  @apply my-4;
+}
+
+.mdx-footer {
+  @apply text-center text-gray-500 text-sm py-4 border-t;
+}
+
+.mdx-form {
+  @apply space-y-4;
+}
+
+.mdx-h1 {
+  @apply text-4xl font-bold text-gray-800 my-4;
+}
+
+.mdx-h2 {
+  @apply text-3xl font-bold text-gray-800 my-4;
+}
+
+.mdx-h3 {
+  @apply text-2xl font-semibold text-gray-800 my-3;
+}
+
+.mdx-h4 {
+  @apply text-xl font-semibold text-gray-800 my-3;
+}
+
+.mdx-h5 {
+  @apply text-lg font-medium text-gray-800 my-2;
+}
+
+.mdx-h6 {
+  @apply text-base font-medium text-gray-800 my-2;
+}
+
+.mdx-head {
+  @apply hidden;
+}
+
+.mdx-header {
+  @apply bg-gray-100 py-4 px-6 border-b;
+}
+
+.mdx-hgroup {
+  @apply space-y-2;
+}
+
+.mdx-hr {
+  @apply border-t my-4;
+}
+
+.mdx-html {
+  @apply text-gray-800;
+}
+
+.mdx-i {
+  @apply italic;
+}
+
+.mdx-iframe {
+  @apply w-full h-auto border rounded;
+}
+
+.mdx-input {
+  @apply border rounded p-2 w-full;
+}
+
+.mdx-ins {
+  @apply underline text-green-600;
+}
+
+.mdx-kbd {
+  @apply font-mono bg-gray-200 px-1 rounded text-xs;
+}
+
+.mdx-label {
+  @apply font-semibold text-gray-700;
+}
+
+.mdx-legend {
+  @apply font-semibold;
+}
+
+.mdx-li {
+  @apply list-disc ml-6;
+}
+
+.mdx-link {
+  @apply text-blue-600 hover:underline;
+}
+
+.mdx-main {
+  @apply mx-auto p-4;
+}
+
+.mdx-map {
+  @apply hidden;
+}
+
+.mdx-mark {
+  @apply bg-yellow-300;
+}
+
+.mdx-menu {
+  @apply space-y-2;
+}
+
+.mdx-meta {
+  @apply hidden;
+}
+
+.mdx-meter {
+  @apply h-4 bg-blue-500;
+}
+
+.mdx-nav {
+  @apply bg-gray-100 p-4 rounded;
+}
+
+.mdx-noscript {
+  @apply text-red-500;
+}
+
+.mdx-object {
+  @apply w-full h-auto;
+}
+
+.mdx-ol {
+  @apply list-decimal ml-6 space-y-1;
+}
+
+.mdx-optgroup {
+  @apply font-semibold;
+}
+
+.mdx-option {
+  @apply p-2;
+}
+
+.mdx-output {
+  @apply font-mono bg-gray-200 p-1 rounded;
+}
+
+.mdx-p {
+  @apply my-4;
+}
+
+.mdx-picture {
+  @apply w-full h-auto;
+}
+
+.mdx-pre {
+  @apply font-mono bg-gray-100 p-4 rounded overflow-auto;
+}
+
+.mdx-progress {
+  @apply h-4 bg-green-500;
+}
+
+.mdx-q {
+  @apply italic;
+}
+
+.mdx-rp {
+  @apply hidden;
+}
+
+.mdx-rt {
+  @apply text-sm;
+}
+
+.mdx-ruby {
+  @apply inline-flex;
+}
+
+.mdx-s {
+  @apply line-through;
+}
+
+.mdx-samp {
+  @apply font-mono;
+}
+
+.mdx-script {
+  @apply hidden;
+}
+
+.mdx-section {
+  @apply my-4;
+}
+
+.mdx-select {
+  @apply border rounded p-2 w-full;
+}
+
+.mdx-small {
+  @apply text-sm;
+}
+
+.mdx-source {
+  @apply hidden;
+}
+
+.mdx-span {
+  @apply inline;
+}
+
+.mdx-strong {
+  @apply font-bold;
+}
+
+.mdx-style {
+  @apply hidden;
+}
+
+.mdx-sub {
+  @apply align-sub text-xs;
+}
+
+.mdx-summary {
+  @apply cursor-pointer font-semibold;
+}
+
+.mdx-sup {
+  @apply align-super text-xs;
+}
+
+.mdx-table {
+  @apply w-full border-collapse my-4;
+}
+
+.mdx-tbody {
+  @apply divide-y;
+}
+
+.mdx-td {
+  @apply border p-2;
+}
+
+.mdx-template {
+  @apply hidden;
+}
+
+.mdx-textarea {
+  @apply border rounded p-2 w-full;
+}
+
+.mdx-tfoot {
+  @apply border-t;
+}
+
+.mdx-th {
+  @apply border p-2 font-semibold;
+}
+
+.mdx-thead {
+  @apply bg-gray-200;
+}
+
+.mdx-time {
+  @apply text-gray-600;
+}
+
+.mdx-title {
+  @apply hidden;
+}
+
+.mdx-tr {
+  @apply border-b;
+}
+
+.mdx-track {
+  @apply hidden;
+}
+
+.mdx-u {
+  @apply underline;
+}
+
+.mdx-ul {
+  @apply list-disc ml-6 space-y-1;
+}
+
+/* .mdx-var {
+  @apply font-italics;
+} */
+
+.mdx-video {
+  @apply w-full h-auto;
+}
+
+.mdx-wbr {
+  @apply hidden;
+}
+
+.mdx-wrapper {
+  @apply p-4 mx-auto max-w-5xl;
+}

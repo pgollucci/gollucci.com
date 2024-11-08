@@ -27,7 +27,9 @@
     "jsonc",
     "yaml",
     "xml",
-    "html"
+    "html",
+    "mdx",
+    "css"
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.format.enable": false,
@@ -35,10 +37,31 @@
   "editor.tabSize": 2,
   "files.associations": {
     "*.test.tsx": "typescriptreact",
-    "*.test.ts": "typescript"
+    "*.test.ts": "typescript",
+    "*.mdx": "mdx"
   },
   "typescript.suggest.autoImports": true,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "typescript.referencesCodeLens.enabled": true,
+  // "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": false,
   "typescript.updateImportsOnFileMove.enabled": "always",
+  "cSpell.words": [
+    "automatable",
+    "cdktf",
+    "deib",
+    "doesn",
+    "faspz",
+    "Gameday",
+    "govloop",
+    "iasft",
+    "Inna",
+    "linews",
+    "pcnt",
+    "RAII",
+    "Reimagining",
+    "Saman",
+    "templator",
+    "TURBOPACK",
+    "unoptimized"
+  ],
 }
