@@ -2,7 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #ffffff;
-  color: #000000
+@layer base {
+  body {
+    @apply bg-background text-textDefault font-serif leading-relaxed;
+    margin: 0;
+    padding: 0;
+  }
 }
+
+@import 'mdx.css';

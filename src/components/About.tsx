@@ -14,7 +14,7 @@ function About(): ReactElement {
             height={250}
           />
         </div>
-        <div className="prose ml-4">
+        <div className="ml-4">
           <h4 className="text-2xl">Fostered over 350 dogs.</h4>
           <ul className="ml-8 list-disc">
             <li>Part of a volunteer team responsible for saving cats and dogs all over the world. Over 20k dogs and cats have been saved from over 10 states and 5 countries since 2009.</li>
@@ -38,7 +38,7 @@ function About(): ReactElement {
             height={250}
           />
         </div>
-        <div className="prose ml-4">
+        <div className="ml-4">
           <h4 className="text-2xl">One of ~2,000 World Wide in this VIP AWS Program.</h4>
           <ul className="ml-8 list-disc">
             <li>Lead winning (1st place) World Wide Public Sector Team, May 2020</li>
@@ -62,7 +62,7 @@ function About(): ReactElement {
             height={250}
           />
         </div>
-        <div className="prose ml-4">
+        <div className="ml-4">
           <h4 className="text-2xl">Vice President of Apache Software Foundation Infrastructure (World Wide)</h4>
           <h5 className="text-center italic">THE WORLD&apos;S LARGEST OPEN SOURCE FOUNDATION</h5>
           <ul className="ml-8 list-disc">
@@ -83,7 +83,7 @@ function About(): ReactElement {
             height={250}
           />
         </div>
-        <div className="prose ml-4">
+        <div className="ml-4">
           <h4 className="text-2xl">18th most changes to FreeBSD ports World Wide.</h4>
           <ul className="ml-8 list-disc">
             <li>Instrumental in Apache Software Foundation, ruby, and perl ports</li>

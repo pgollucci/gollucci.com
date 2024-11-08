@@ -19,14 +19,14 @@ function Footer(): ReactElement {
               {
                 social.map(item => (
                   <span key={item.name}>
-                    <a className="hover:text-blue-500" href={item.href}>{item.name}</a>
+                    <a className="hover:text-primary" href={item.href}>{item.name}</a>
                   </span>
                 ))
               }
             </div>
             <ul className="text-right">
-              <li><a className="hover:text-blue-500" href="https://github.com/pgollucci/gollucci.com">Next.js 15.0.2</a></li>
-              <li><a className="hover:text-blue-500" href="https://github.com/p6m7g8/p6-cdk-website-plus-app">AWS CDK</a></li>
+              <li><a className="hover:text-primary" href="https://github.com/pgollucci/gollucci.com">Next.js 15.0.2</a></li>
+              <li><a className="hover:text-primary" href="https://github.com/p6m7g8/p6-cdk-website-plus-app">AWS CDK</a></li>
             </ul>
           </div>
         </div>

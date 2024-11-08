@@ -12,7 +12,10 @@ const config: Config = {
       colors: {
         primary: '#51c4d3',
         secondary: '#004e89',
-        tertiary: '#f4f4f4',
+        tertiary: '#0000aa',
+        background: '#f0f0f0',
+        bgInverted: '#f0f0f0',
+        textDefault: '#111111',
       },
     },
   },

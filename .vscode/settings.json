@@ -28,7 +28,8 @@
     "yaml",
     "xml",
     "html",
-    "mdx"
+    "mdx",
+    "css"
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
   "typescript.format.enable": false,
@@ -47,8 +48,19 @@
   "cSpell.words": [
     "automatable",
     "cdktf",
+    "deib",
+    "doesn",
+    "faspz",
+    "Gameday",
+    "govloop",
+    "iasft",
+    "Inna",
+    "linews",
+    "pcnt",
     "RAII",
     "Reimagining",
+    "Saman",
+    "templator",
     "TURBOPACK",
     "unoptimized"
   ],
