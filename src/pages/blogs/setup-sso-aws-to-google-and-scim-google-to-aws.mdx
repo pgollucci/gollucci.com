@@ -1,0 +1,265 @@
+import Image from 'next/image'
+
+# SCIM & SSO for AWS and Google Workspaces
+
+<Image src="/sso-scim.png" width={400} height={0} />
+
+Definitely read this, but do not trust it: 
+> https://docs.aws.amazon.com/singlesignon/latest/userguide/gs-gwp.html
+
+## Sign up for Google Workspace
+
+<div style={{ display: 'flex', gap: '100px', margin: '50px', alignItems: 'center' }}>
+  <Image src="/scim-sso-g-nav.png" width={150} height={0} />
+  <Image src="/scim-sso-g-domain.png" width={600} height={0} />
+</div>
+
+## Get the SAML App IdP Meta Data
+
+[https://admin.google.com/](https://admin.google.com/)
+
+<div style={{ display: 'flex', gap: '25px', margin: '25px', alignItems: 'center' }}>
+  <Image src="/gw-app-saml.png" width={400} height={0} />
+  <Image src="/gw-saml-app.png" width={400} height={0} />
+  <Image src="/gw-idp-metadata.png" width={400} height={0} />
+</div>
+
+# Sign up for Amazon Web Services (AWS)
+
+## Enable AWS Identity Center
+
+[https://us-east-1.console.aws.amazon.com/singlesignon/home?region=us-east-1](https://us-east-1.console.aws.amazon.com/singlesignon/home?region=us-east-1)
+
+<div className="mdx-warning">
+Danger: This is cli is not real, you must use the AWS Console
+</div>
+
+<div style={{ display: 'flex', gap: '100px', margin: '50px', alignItems: 'center' }}>
+  <Image src="/aws-identity-center-enable.png" width={600} height={0} />
+  <Image src="/aws-identity-center-cli-no.png" width={600} height={0} />
+</div>
+
+<Image src="/aws-identity-center-enabled.png" width={600} height={0} />
+
+In the top right of that click Edit and give your instance a name.
+
+## Configure an External Identity Provider (IdP)
+
+<div style={{ display: 'flex', gap: '25px', margin: '25px', alignItems: 'center' }}>
+  <Image src="/aws-ic-idp-source-change.png" width={400} height={0} />
+  <Image src="/aws-ic-idp-new.png" width={400} height={0} />
+  <Image src="/aws-ic-idp-external.png" width={400} height={0} />
+</div>
+
+Download the metadata file from AWS and save it.
+
+<Image src="/aws-ic-idp-meta.png" width={400} height={0} />
+
+## Upload the Google IdP Meta Data to AWS
+
+<Image src="/aws-ic-need-to-get-gw-meta.png" width={400} height={0} />
+
+## Enter the AWS IdP Info into Google [back to Google Workspaces]
+
+<div style={{ display: 'flex', gap: '25px', margin: '25px', alignItems: 'center' }}>
+  <Image src="/gw-acs.png" width={400} height={0} />
+  <Image src="/gw-attributes.png" width={400} height={0} />
+</div>
+
+
+## Enable Automatic Provisioning
+
+<Image src="/aws-ic-auto-provision.png" width={400} height={0} />
+<div className="mdx-warning">
+You need to save both the URL and the token, they will not be given again.
+</div>
+<Image src="/aws-scim.png" width={400} height={0} />
+
+## So you did all that thinking you would get Automatic Provisioning?
+
+<div className="mdx-alert">
+Wrong!  Google does not actually support it
+</div>
+
+Have no fear, more work and we will have it
+
+## Time to setup `gcloud` cli
+
+This will let us make and view Google Cloud Platform (GCP) Projects
+
+```bash
+brew install --cask google-cloud-sdk
+```
+Then
+```bash
+gcloud auth login
+```
+Followed by
+```bash
+gcloud projects create p6m7g8 ---name P6M7G8
+
+gcloud config set project p6m7g8
+> Updated property [core/project].
+
+gcloud projects list
+> PROJECT_ID  NAME    PROJECT_NUMBER
+> p6m7g8      p6m7g8  XXXXXXXXXXX
+
+gcloud projects describe p6m7g8
+> createTime: '2013-12-09T10:35:01.226Z'
+> lifecycleState: ACTIVE
+> name: p6m7g8
+> projectId: p6m7g8
+> projectNumber: 'XXXXXXXXXXX'
+```
+
+Enable the Admin SDK API
+```bash
+gcloud services enable admin.googleapis.com
+> Operation "operations/acat.p2-1046753883131-GUID" finished successfully.
+
+gcloud services list --enabled
+> NAME                               TITLE
+>admin.googleapis.com               Admin SDK API
+```
+
+Now to setup a service account for AWS `ssosync`
+
+```bash
+gcloud iam service-accounts create aws-sso-sync --display-name="Service Account for AWS SSO Sync"
+>Created service account [aws-sso-sync].
+
+gcloud iam service-accounts list
+>DISPLAY NAME                        EMAIL                                        DISABLED
+>Service Account for AWS SSO Sync    aws-sso-sync@p6m7g8.iam.gserviceaccount.com  False
+
+gcloud iam service-accounts keys create conf/key.json --iam-account=aws-sso-sync@p6m7g8.iam.gserviceaccount.com
+>created key [XXXXXXXXXXXXXXXXXXXX] of type [json] as [conf/key.json] for [aws-sso-sync@p6m7g8.iam.gserviceaccount.com]
+```
+
+```bash
+gcloud iam service-accounts describe aws-sso-sync@p6m7g8.iam.gserviceaccount.com
+>displayName: Service Account for AWS SSO Sync
+>email: aws-sso-sync@p6m7g8.iam.gserviceaccount.com
+>etag: EEEEEEEEEEEEE
+>name: projects/p6m7g8/serviceAccounts/aws-sso-sync@p6m7g8.iam.gserviceaccount.com
+>oauth2ClientId: 'XXXXXXXXXXXX'
+>projectId: p6m7g8
+>uniqueId: 'XXXXXXXXXXXXXXXXX'
+```
+
+<div className="mdx-warning">There is NO CLI</div>
+And delegate Domain wide authority  by grabbing the `oauth2ClientId` or the identical `uniqueId` from the above command and entering it into the Google Workspace Admin Console
+
+For the scopes enter this as exactly as shown and click save
+
+`https://www.googleapis.com/auth/admin.directory.user.readonly,https://www.googleapis.com/auth/admin.directory.group.readonly,https://www.googleapis.com/auth/admin.directory.group.member.readonly`
+
+<div style={{ display: 'flex', gap: '25px', margin: '25px', alignItems: 'center' }}>
+  <Image src="/gw-domain-wide.png" width={400} height={0} />
+  <Image src="/gw-dw-scopes.png" width={400} height={0} />
+</div>
+
+## Setup Google Group(s)
+
+```bash
+gcloud organizations list
+>DISPLAY_NAME            ID             DIRECTORY_CUSTOMER_ID
+>p6m7g8.com              XXXXXXXXXX     YYYYYYYYY
+
+gcloud services enable cloudidentity.googleapis.com
+gcloud services enable cloudresourcemanager.googleapis.com
+
+gcloud identity groups create aws-admins@p6m7g8.com \
+  --organization XXXXXXXXXX \
+  --display-name="AWS SSO Admin Group" \
+  --description="AWS Admin Group for IAM Identity Center synchronization"
+
+gcloud identity groups aws-readonly@p6m7g8.com \
+  --organization XXXXXXXXXX \
+  --display-name="AWS SSO ReadOnly Group" \
+  --description="AWS ReadOnly Group for IAM Identity Center synchronization"
+
+# XXX: The creator is automatically a member
+# gcloud identity groups memberships add \
+#  --group-email=aws-admins@p6m7g8.com \
+#  --member-email=pgollucci@p6m7g8.com \
+#  --roles=MEMBER
+
+# gcloud identity groups memberships add \
+#  --group-email=aws-readonly@p6m7g8.com \
+#  --member-email=pgollucci@p6m7g8.com \
+#  --roles=MEMBER
+
+gcloud identity groups memberships list --group-email aws-admins@p6m7g8.com
+>---
+>name: groups/ZZZZZZZZZZZ/memberships/YYYYYYYYYYYYY
+>preferredMemberKey:
+>  id: pgollucci@p6m7g8.com
+>roles:
+>- name: OWNER
+>- name: MEMBER
+
+gcloud identity groups memberships list --group-email aws-readonly@p6m7g8.com
+>---
+>name: groups/TTTTTTTTTTTT/memberships/UUUUUUUUUUU
+>preferredMemberKey:
+>  id: pgollucci@p6m7g8.com
+>roles:
+>- name: OWNER
+>- name: MEMBER
+```
+
+## Using the AWS SAM Application Repository Deploy `awslabs/ssosync`
+
+### First Test it locally
+
+```bash
+gh repo clone awslabs/ssosync
+cd ssosync
+make go-build
+sudo mv ./ssosync $HOMEBREW_PREFIX/bin
+```
+
+Now try to sync them
+
+```bash
+ssosync \
+  --google-credentials PATH/conf/key.json \
+  --google-admin pgollucci@p6m7g8.com \
+  --identity-store-id d-1234567890 \
+  --endpoint https://scim.us-east-1.amazonaws.com/GUID/scim/v2 \
+  --access-token TONEN \
+  --sync-method groups \
+  --group-match 'email:aws-*' \
+  --user-match '*' \
+  --log-level info
+>INFO[0000] Syncing AWS users and groups from Google Workspace SAML Application
+>INFO[0000] Test call for groups successful               Groups="{\n  STUFF \n}"
+>INFO[0000] syncing                                       sync_method=groups
+>INFO[0000] get google groups                             queryGroup="email:aws-*"
+>INFO[0000] get google users                              queryUsers="*"
+>INFO[0002] get existing aws groups
+>INFO[0002] get existing aws users
+>INFO[0002] get active status for aws users
+>INFO[0002] preparing map of user id''s to user
+>INFO[0003] syncing changes
+>INFO[0003] sync completed
+```
+
+### Schedule it with Github Actions [prefered]
+
+
+
+### OR use the AWS SAM Application Repository
+
+[https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/create/app?applicationId=arn:aws:serverlessrepo:us-east-2:004480582608:applications/SSOSync](https://us-east-1.console.aws.amazon.com/lambda/home?region=us-east-1#/create/app?applicationId=arn:aws:serverlessrepo:us-east-2:004480582608:applications/SSOSync)
+
+
+
+
+--------------------------
+
+export async function getStaticProps() {
+  return { props: { isMDX: true } }
+}

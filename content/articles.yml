@@ -1,3 +1,14 @@
+- url: /blogs/setup-sso-aws-to-google-and-scim-google-to-aws
+  src: /sso-scim.png
+  title: Setup SSO AWS to Google and SCIM Google to AWS
+  blurb: How to setup SSO between AWS and Google and SCIM between Google and AWS
+  categories:
+    - Blog
+    - P6M7G8
+    - AWS
+    - Google
+    - SSO
+    - SCIM
 - url: /blogs/about-p6m7g8-inc-infra
   src: /lz.png
   title: What does P6M7G8 Inc. do?

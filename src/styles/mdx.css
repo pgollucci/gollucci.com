@@ -474,3 +474,11 @@
 .mdx-wrapper {
   @apply p-4 mx-auto max-w-5xl;
 }
+
+.mdx-warning {
+  @apply bg-yellow-100;
+}
+
+.mdx-alert {
+  @apply text-bgInverted bg-red-500;
+}
