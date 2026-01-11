@@ -13,7 +13,7 @@ Gollucci.com website
 
 ## Summary
 
-- Next v14
+- Next v16
 - Typescript
 - React
 - Tailwind
