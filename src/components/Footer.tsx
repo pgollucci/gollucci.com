@@ -25,9 +25,9 @@ function Footer(): ReactElement {
               }
             </div>
             <ul className="text-right">
-              <li><a className="hover:text-primary" href="https://github.com/pgollucci/gollucci.com">Next.js 15.5.52</a></li>
-              <li><a className="hover:text-primary" href="https://github.com/p6m7g8/p6-cdk-website-plus-app">AWS CDK 2.220.0</a></li>
-              <li>TailwindCSS 3.14.x</li>
+              <li><a className="hover:text-primary" href="https://github.com/pgollucci/gollucci.com">Next.js 16.1.1</a></li>
+              <li><a className="hover:text-primary" href="https://github.com/p6m7g8/p6-cdk-website-plus-app">AWS CDK 2.234.1</a></li>
+              <li>TailwindCSS 3.14.19</li>
             </ul>
           </div>
         </div>
