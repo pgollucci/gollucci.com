@@ -2,10 +2,10 @@ import antfu from '@antfu/eslint-config'
 import nextPlugin from '@next/eslint-plugin-next'
 import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
-import tailwindcss from 'eslint-plugin-tailwindcss'
 
 export default antfu({
   ignores: [
+    '.claude/',
     '.github/',
     '.mergify.yml',
     '.pnpm-store/',
@@ -21,7 +21,6 @@ export default antfu({
     react,
     'react-hooks': reactHooks,
     'next': nextPlugin,
-    tailwindcss,
   },
   extends: ['next/core-web-vitals'],
   languageOptions: {
@@ -47,7 +46,6 @@ export default antfu({
     'next/no-html-link-for-pages': 'error',
     'next/no-assign-module-variable': 'error',
     'next/no-before-interactive-script-outside-document': 'error',
-    'tailwindcss/classnames-order': 'error',
   },
   settings: {
     react: {
