@@ -1,11 +1,18 @@
-@import 'mdx.css';
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@import "./mdx.css";
+
+@theme {
+  --color-primary: #51c4d3;
+  --color-secondary: #004e89;
+  --color-tertiary: #0000aa;
+  --color-background: #f0f0f0;
+  --color-bg-inverted: #f0f0f0;
+  --color-text-default: #111111;
+}
 
 @layer base {
   body {
-    @apply bg-background text-textDefault font-serif leading-relaxed;
+    @apply bg-background text-text-default font-serif leading-relaxed;
     margin: 0;
     padding: 0;
   }

@@ -10,13 +10,12 @@
     ],
     "baseUrl": "./",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "types": [
       "node",
       "jest",
-      "next",
-      "tailwindcss"
+      "next"
     ],
     "allowJs": false,
     "strict": true,
