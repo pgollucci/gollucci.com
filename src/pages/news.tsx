@@ -36,12 +36,31 @@ export default function NewsPage({ articles, limit }: NewsPageProps) {
   const { query } = useRouter()
   const selectedCategory = getCategoryFromQuery(query.category)
   const filteredArticles = filterArticlesByCategory(articles, selectedCategory)
-  const titleSuffix = selectedCategory ? ` (${selectedCategory})` : ''
+  const title = selectedCategory
+    ? `Philip M. Gollucci's News (${selectedCategory})`
+    : 'Philip M. Gollucci\'s News'
+  const description = selectedCategory
+    ? `Thought leadership articles filtered by ${selectedCategory}.`
+    : 'Thought leadership articles and media features from Philip M. Gollucci.'
+  const canonical = selectedCategory
+    ? `https://www.gollucci.com/news?category=${encodeURIComponent(selectedCategory)}`
+    : 'https://www.gollucci.com/news'
 
   return (
     <>
       <Head>
-        <title>{`Philip M. Gollucci's News${titleSuffix}`}</title>
+        <title>{title}</title>
+        <meta name="description" content={description} />
+        <link rel="canonical" href={canonical} />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content={title} />
+        <meta property="og:description" content={description} />
+        <meta property="og:url" content={canonical} />
+        <meta property="og:image" content="https://www.gollucci.com/pj.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        <meta name="twitter:image" content="https://www.gollucci.com/pj.png" />
       </Head>
       <main className="flex min-h-0 flex-col items-center justify-between p-24">
         <div>
