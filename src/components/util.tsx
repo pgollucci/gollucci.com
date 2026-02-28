@@ -1,7 +1,11 @@
-import type { MDXComponents } from 'mdx/types'
-import type { ComponentPropsWithoutRef } from 'react'
+import type { ComponentPropsWithoutRef, JSX } from 'react'
 
-const mdxComponents: MDXComponents = {
+type IntrinsicElement = keyof JSX.IntrinsicElements
+type MdxComponentMap = Partial<{
+  [K in IntrinsicElement]: (props: ComponentPropsWithoutRef<K>) => JSX.Element
+}>
+
+const mdxComponents = {
   a: (props: ComponentPropsWithoutRef<'a'>) => <a className="mdx-a" {...props} />,
   blockquote: (props: ComponentPropsWithoutRef<'blockquote'>) => <blockquote className="mdx-blockquote" {...props} />,
   code: (props: ComponentPropsWithoutRef<'code'>) => <code className="mdx-code" {...props} />,
@@ -16,8 +20,8 @@ const mdxComponents: MDXComponents = {
   p: (props: ComponentPropsWithoutRef<'p'>) => <p className="mdx-p" {...props} />,
   pre: (props: ComponentPropsWithoutRef<'pre'>) => <pre className="mdx-pre" {...props} />,
   ul: (props: ComponentPropsWithoutRef<'ul'>) => <ul className="mdx-ul" {...props} />,
-}
+} satisfies MdxComponentMap
 
-export function getMdxComponents(): MDXComponents {
+export function getMdxComponents(): MdxComponentMap {
   return mdxComponents
 }
