@@ -20,6 +20,14 @@ const customJestConfig: Config = {
   setupFilesAfterEnv: ['<rootDir>/jest.setup.tsx'],
   collectCoverage: true,
   coverageDirectory: 'coverage',
+  coverageThreshold: {
+    global: {
+      branches: 50,
+      functions: 85,
+      lines: 70,
+      statements: 70,
+    },
+  },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'], // moduleFileExtensions must include 'js' even though I don't use them
 }
 
