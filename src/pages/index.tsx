@@ -8,6 +8,7 @@ import News from '../components/News'
 import Pitch from '../components/Pitch'
 import Profile from '../components/Profile'
 import type { ArticleProps } from '../components/Article'
+import { parseArticles } from '../lib/articles'
 
 interface HomeProps {
   articles: ArticleProps[]
@@ -34,7 +35,7 @@ export default function Home({ articles }: HomeProps) {
 export async function getStaticProps() {
   const articlesPath = path.join(process.cwd(), 'content/articles.yml')
   const fileContents = fs.readFileSync(articlesPath, 'utf8')
-  const articles = yaml.load(fileContents) as ArticleProps[]
+  const articles = parseArticles(yaml.load(fileContents))
 
   return {
     props: {
