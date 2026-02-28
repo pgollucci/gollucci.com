@@ -22,7 +22,7 @@ function Article(article: ArticleProps): ReactElement {
       <div className="mt-2">
         {article.categories.map(category => (
           <span key={category} className="mr-2 inline-flex items-center rounded-full bg-primary px-3 py-0.5 text-sm font-medium leading-5 text-bg-inverted">
-            <Link href={`/news?category=${category}`}>
+            <Link href={{ pathname: '/news', query: { category } }}>
               {category}
             </Link>
           </span>
