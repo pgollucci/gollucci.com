@@ -7,6 +7,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import News from '../components/News'
+import { parseArticles } from '../lib/articles'
 
 interface NewsPageProps {
   articles: ArticleProps[]
@@ -105,7 +106,7 @@ export default function NewsPage({ articles, limit }: NewsPageProps) {
 export async function getStaticProps() {
   const articlesPath = path.join(process.cwd(), 'content/articles.yml')
   const fileContents = fs.readFileSync(articlesPath, 'utf8')
-  const articles = yaml.load(fileContents) as ArticleProps[]
+  const articles = parseArticles(yaml.load(fileContents))
 
   return {
     props: {
