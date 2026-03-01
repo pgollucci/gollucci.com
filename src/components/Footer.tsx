@@ -1,4 +1,5 @@
 import type { ReactElement } from 'react'
+import packageJson from '../../package.json'
 
 const social = [
   { name: 'Dev.to', href: 'https://dev.to/pgollucci', icon: () => (<p>Dev.to</p>) },
@@ -10,6 +11,9 @@ const social = [
 ]
 
 function Footer(): ReactElement {
+  const nextVersion = packageJson.dependencies.next
+  const tailwindVersion = packageJson.devDependencies.tailwindcss
+
   return (
     <>
       <footer className="w-full">
@@ -25,9 +29,9 @@ function Footer(): ReactElement {
               }
             </div>
             <ul className="text-right">
-              <li><a className="hover:text-primary" href="https://github.com/pgollucci/gollucci.com" target="_blank" rel="noopener noreferrer">Next.js 16.1.6</a></li>
+              <li><a className="hover:text-primary" href="https://github.com/pgollucci/gollucci.com" target="_blank" rel="noopener noreferrer">{`Next.js ${nextVersion}`}</a></li>
               <li><a className="hover:text-primary" href="https://github.com/p6m7g8/p6-cdk-website-plus-app" target="_blank" rel="noopener noreferrer">AWS CDK 2.234.1</a></li>
-              <li>TailwindCSS 4.1.18</li>
+              <li>{`TailwindCSS ${tailwindVersion}`}</li>
             </ul>
           </div>
         </div>
