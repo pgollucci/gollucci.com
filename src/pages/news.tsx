@@ -32,18 +32,36 @@ export function filterArticlesByCategory(articles: ArticleProps[], category?: st
   )
 }
 
+function normalizeSelectedCategory(articles: ArticleProps[], category?: string): string | undefined {
+  if (!category) {
+    return undefined
+  }
+
+  for (const article of articles) {
+    const matchedCategory = article.categories.find(existingCategory =>
+      existingCategory.toLocaleLowerCase() === category.toLocaleLowerCase(),
+    )
+    if (matchedCategory) {
+      return matchedCategory
+    }
+  }
+
+  return category.toLocaleLowerCase()
+}
+
 export default function NewsPage({ articles, limit }: NewsPageProps) {
   const { query } = useRouter()
   const selectedCategory = getCategoryFromQuery(query.category)
+  const normalizedCategory = normalizeSelectedCategory(articles, selectedCategory)
   const filteredArticles = filterArticlesByCategory(articles, selectedCategory)
-  const title = selectedCategory
-    ? `Philip M. Gollucci's News (${selectedCategory})`
+  const title = normalizedCategory
+    ? `Philip M. Gollucci's News (${normalizedCategory})`
     : 'Philip M. Gollucci\'s News'
-  const description = selectedCategory
-    ? `Thought leadership articles filtered by ${selectedCategory}.`
+  const description = normalizedCategory
+    ? `Thought leadership articles filtered by ${normalizedCategory}.`
     : 'Thought leadership articles and media features from Philip M. Gollucci.'
-  const canonical = selectedCategory
-    ? `https://www.gollucci.com/news?category=${encodeURIComponent(selectedCategory)}`
+  const canonical = normalizedCategory
+    ? `https://www.gollucci.com/news?category=${encodeURIComponent(normalizedCategory)}`
     : 'https://www.gollucci.com/news'
 
   return (
@@ -64,9 +82,9 @@ export default function NewsPage({ articles, limit }: NewsPageProps) {
       </Head>
       <main className="flex min-h-0 flex-col items-center justify-between p-24">
         <div>
-          {selectedCategory && (
+          {normalizedCategory && (
             <div className="mb-6 text-center">
-              <h1 className="text-2xl font-semibold">{`News: ${selectedCategory}`}</h1>
+              <h1 className="text-2xl font-semibold">{`News: ${normalizedCategory}`}</h1>
               <Link className="underline" href="/news">Clear filter</Link>
             </div>
           )}
