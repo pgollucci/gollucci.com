@@ -24,8 +24,8 @@ describe('home Page', () => {
 
     expect(screen.getByText(/thought leadership:/i)).toBeInTheDocument()
 
-    expect(screen.getAllByText(/test article 1/i).length).toBeGreaterThan(0)
-    expect(screen.getAllByText(/test article 2/i).length).toBeGreaterThan(0)
+    expect(screen.getByText('Test Article 1')).toBeInTheDocument()
+    expect(screen.getByText('Test Article 2')).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /more.../i })).toBeInTheDocument()
   })
 })
