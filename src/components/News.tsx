@@ -8,7 +8,7 @@ interface NewsProps {
 
 export default function News({ articles, limit }: NewsProps) {
   return (
-    <div className="mx-auto mt-0 grid max-w-lg gap-5 lg:max-w-none lg:grid-cols-4">
+    <div className="mx-auto mt-0 grid w-full max-w-lg grid-cols-1 gap-5 sm:max-w-none sm:grid-cols-2 lg:grid-cols-4">
       {articles.slice(0, limit).map((article: ArticleProps) => (
         <Article
           key={article.title}
