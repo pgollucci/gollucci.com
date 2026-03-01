@@ -10,6 +10,7 @@ export default antfu({
     '.mergify.yml',
     '.pnpm-store/',
     '.vscode',
+    '*.md',
     'next-env.d.ts',
     'out/',
     'package.json',
