@@ -22,8 +22,16 @@ describe('home Page', () => {
   it('renders the home page with article content and navigation link', () => {
     render(<Home articles={mockArticles} />)
 
-    expect(screen.getByText(/thought leadership:/i)).toBeInTheDocument()
+    expect(document.title).toBe('Philip M. Gollucci')
+    const description = document.querySelector('meta[name="description"]')
+    const canonical = document.querySelector('link[rel="canonical"]')
+    expect(description).toHaveAttribute(
+      'content',
+      'Executive technology leadership, thought leadership, and engineering insights from Philip M. Gollucci.',
+    )
+    expect(canonical).toHaveAttribute('href', 'https://www.gollucci.com/')
 
+    expect(screen.getByText(/thought leadership:/i)).toBeInTheDocument()
     expect(screen.getByText('Test Article 1')).toBeInTheDocument()
     expect(screen.getByText('Test Article 2')).toBeInTheDocument()
     expect(screen.getByRole('link', { name: /more.../i })).toBeInTheDocument()
