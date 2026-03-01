@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: '0 14 * * *'
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   upgrade:
     runs-on: ubuntu-latest
@@ -13,3 +17,4 @@ jobs:
         uses: p6m7g8-actions/next-upgrade@main
         with:
           gh_token: ${{ secrets.P6_PGOLLUCCI_GH_TOKEN }}
+          git_token: ${{ github.token }}
