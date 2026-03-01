@@ -19,14 +19,14 @@ function Footer(): ReactElement {
               {
                 social.map(item => (
                   <span key={item.name}>
-                    <a className="hover:text-primary" href={item.href}>{item.name}</a>
+                    <a className="hover:text-primary" href={item.href} target="_blank" rel="noopener noreferrer">{item.name}</a>
                   </span>
                 ))
               }
             </div>
             <ul className="text-right">
-              <li><a className="hover:text-primary" href="https://github.com/pgollucci/gollucci.com">Next.js 16.1.6</a></li>
-              <li><a className="hover:text-primary" href="https://github.com/p6m7g8/p6-cdk-website-plus-app">AWS CDK 2.234.1</a></li>
+              <li><a className="hover:text-primary" href="https://github.com/pgollucci/gollucci.com" target="_blank" rel="noopener noreferrer">Next.js 16.1.6</a></li>
+              <li><a className="hover:text-primary" href="https://github.com/p6m7g8/p6-cdk-website-plus-app" target="_blank" rel="noopener noreferrer">AWS CDK 2.234.1</a></li>
               <li>TailwindCSS 4.1.18</li>
             </ul>
           </div>
