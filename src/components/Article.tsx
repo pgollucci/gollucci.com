@@ -12,10 +12,14 @@ export interface ArticleProps {
 }
 
 function Article(article: ArticleProps): ReactElement {
+  const imageAlt = article.alt ?? article.title
+
   return (
     <div className="px-2 py-2 shadow-lg sm:w-full">
-      <a href={article.url}><Image className="h-52" src={article.src} alt="" width={250} height={150} /></a>
-      <a href={article.url} className="block">
+      <a href={article.url} target="_blank" rel="noopener noreferrer">
+        <Image className="h-52" src={article.src} alt={imageAlt} width={250} height={150} />
+      </a>
+      <a href={article.url} className="block" target="_blank" rel="noopener noreferrer">
         <h3>{article.title}</h3>
         <p className="mt-2 text-base leading-6 text-gray-500">{article.blurb}</p>
       </a>
