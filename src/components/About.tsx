@@ -9,7 +9,7 @@ function About(): ReactElement {
           <Image
             className="rounded-full"
             src="/animal.jpg"
-            alt="animal"
+            alt="Lucky Dog Animal Rescue volunteer work"
             width={450}
             height={250}
           />
@@ -33,7 +33,7 @@ function About(): ReactElement {
           <Image
             className="rounded-full"
             src="/awscb.png"
-            alt="animal"
+            alt="AWS Community Builder recognition"
             width={450}
             height={250}
           />
@@ -57,7 +57,7 @@ function About(): ReactElement {
           <Image
             className="rounded-full"
             src="/asf.png"
-            alt="animal"
+            alt="Apache Software Foundation leadership"
             width={450}
             height={250}
           />
@@ -78,7 +78,7 @@ function About(): ReactElement {
           <Image
             className="rounded-full"
             src="/fbsd.jpg"
-            alt="animal"
+            alt="FreeBSD contribution milestone"
             width={450}
             height={250}
           />
