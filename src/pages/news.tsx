@@ -83,12 +83,12 @@ export default function NewsPage({ articles, limit }: NewsPageProps) {
       </Head>
       <main className="flex min-h-0 flex-col items-center justify-between p-24">
         <div>
-          {normalizedCategory && (
+          {normalizedCategory ? (
             <div className="mb-6 text-center">
               <h1 className="text-2xl font-semibold">{`News: ${normalizedCategory}`}</h1>
               <Link className="underline" href="/news">Clear filter</Link>
             </div>
-          )}
+          ) : null}
           {filteredArticles.length > 0
             ? <News articles={filteredArticles} limit={limit} />
             : (
