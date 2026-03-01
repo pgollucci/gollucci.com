@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import About from '../components/About'
 
-export default function AboutMe() {
-  const title = 'Philip M. Gollucci About'
-  const description = 'Background, leadership milestones, and community impact highlights from Philip M. Gollucci.'
-  const canonical = 'https://www.gollucci.com/about'
+const title = 'Philip M. Gollucci About'
+const description = 'Background, leadership milestones, and community impact highlights from Philip M. Gollucci.'
+const canonical = 'https://www.gollucci.com/about'
 
+export default function AboutMe() {
   return (
     <>
       <Head>

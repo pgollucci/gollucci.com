@@ -7,10 +7,10 @@ import { getMdxComponents } from '../components/util'
 import '../styles/global.css'
 
 const inter = Inter({ subsets: ['latin'] })
+const components = getMdxComponents()
 
 export default function App({ Component, pageProps }: AppProps) {
   const isMDX = pageProps.isMDX || false
-  const components = getMdxComponents()
 
   const content = isMDX
     ? (
