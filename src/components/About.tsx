@@ -15,7 +15,7 @@ function About(): ReactElement {
           />
         </div>
         <div className="ml-4">
-          <p className="text-2xl">Part of a volunteer team responsible for saving cats and dogs worldwide. Over 28k dogs and cats have been saved from over 10 states and 5 countries since 2009.</p>
+          <p className="text-2xl">Part of a volunteer team responsible for saving cats and dogs worldwide. Over 28,000 dogs and cats have been saved from over 10 states and 5 countries since 2009.</p>
           <ul className="ml-8 list-disc">
             <li>Fostered over 400 dogs.</li>
             <li>Represented Lucky Dog Animal Rescue at AWS Worldwide Public Sector Summit in 2019.</li>
