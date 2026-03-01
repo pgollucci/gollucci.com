@@ -14,11 +14,11 @@ interface HomeProps {
   articles: ArticleProps[]
 }
 
-export default function Home({ articles }: HomeProps) {
-  const title = 'Philip M. Gollucci'
-  const description = 'Executive technology leadership, thought leadership, and engineering insights from Philip M. Gollucci.'
-  const canonical = 'https://www.gollucci.com/'
+const title = 'Philip M. Gollucci'
+const description = 'Executive technology leadership, thought leadership, and engineering insights from Philip M. Gollucci.'
+const canonical = 'https://www.gollucci.com/'
 
+export default function Home({ articles }: HomeProps) {
   return (
     <>
     <Head>
