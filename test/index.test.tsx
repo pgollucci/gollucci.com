@@ -19,7 +19,7 @@ describe('home Page', () => {
     },
   ]
 
-  it('renders the home page with article content and navigation link', async () => {
+  it('renders the home page with article content and navigation link', () => {
     render(<Home articles={mockArticles} />)
 
     expect(screen.getByText(/thought leadership:/i)).toBeInTheDocument()
