@@ -1,11 +1,22 @@
 name: Build
 
 on:
-  pull_request: {}
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review, edited]
+  push:
+    branches:
+      - gh-readonly-queue/**
+  merge_group:
+    types: [checks_requested]
   workflow_dispatch: {}
+
+concurrency:
+  group: build-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
+    name: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
