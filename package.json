@@ -20,7 +20,7 @@
     "tailwindcss"
   ],
   "engines": {
-    "node": ">= 24.12.0"
+    "node": ">= 24.15.0"
   },
   "license": "Apache-2.0",
   "type": "module",
@@ -55,7 +55,7 @@
     "@swc/core": "1.15.17",
     "@swc/jest": "0.2.39",
     "@tailwindcss/forms": "0.5.11",
-    "@tailwindcss/postcss": "4.2.1",
+    "@tailwindcss/postcss": "4.2.4",
     "@tailwindcss/typography": "0.5.19",
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.9.1",
@@ -75,10 +75,10 @@
     "jest": "30.2.0",
     "postcss": "8.5.6",
     "serve": "14.2.5",
-    "tailwindcss": "4.2.1",
+    "tailwindcss": "4.2.4",
     "ts-jest": "29.4.6",
     "ts-node-dev": "2.0.0",
     "typescript": "5.9.3"
   },
-  "packageManager": "pnpm@10.28.0+sha512.05df71d1421f21399e053fde567cea34d446fa02c76571441bfc1c7956e98e363088982d940465fd34480d4d90a0668bc12362f8aa88000a64e83d0b0e47be48"
+  "packageManager": "pnpm@10.33.2+sha512.a90faf6feeab71ad6c6e57f94e0fe1a12f5dcc22cd754db40ae9593eb6a3e0b6b12e3540218bb37ae083404b1f2ce6db2a4121e979829b4aff94b99f49da1cf8"
 }
