@@ -7,7 +7,6 @@ export default antfu({
   ignores: [
     '.claude/',
     '.github/',
-    '.mergify.yml',
     '.pnpm-store/',
     '.vscode',
     '*.md',
