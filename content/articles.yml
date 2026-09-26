@@ -382,3 +382,12 @@
     - ASF
     - Infrastructure
     - Security
+- url: 'https://perl.apache.org/about/contributors/people.html'
+  src: /perl.png
+  title: Using Apache and mod_perl since September 1998
+  blurb: 'Official mod_perl contributor bio, the earliest public anchor'
+  categories:
+    - Open Source
+    - ASF
+    - mod_perl
+    - FreeBSD
