@@ -208,6 +208,15 @@
     - Work
     - Interviews
     - Community
+- url: https://www.linkedin.com/posts/pgollucci_technologist-anywhere-activity-6920534432424603650-8TBQ
+  src: /technologist.png
+  title: A great technologist can come from anywhere
+  blurb: Ratatouille reframed for hiring and talent
+  categories:
+    - LinkedIn
+    - Leadership
+    - Hiring
+    - DEIB
 - url: https://github.com/p6m7g8/awesome-projen
   src: /pj.png
   title: Awesome Projen
