@@ -382,6 +382,15 @@
     - ASF
     - Infrastructure
     - Security
+- url: https://httpd.apache.org/apreq/docs/libapreq2/apreq_changes.html
+  src: /libapreq2.png
+  title: libapreq2 build fixes credited in CHANGES
+  blurb: autoconf 2.60 and 2.62 workarounds, ppport.h regeneration for Perl 5.8.8+
+  categories:
+    - Open Source
+    - ASF
+    - apreq
+    - C
 - url: https://www.mail-archive.com/apreq-dev@httpd.apache.org/msg00763.html
   src: /perl.png
   title: Rolling RC2 for mod_perl, Apache-Test, and libapreq2
