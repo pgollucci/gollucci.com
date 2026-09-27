@@ -373,6 +373,15 @@
     - FreebSD
     - ZFS
     - Infrastructure
+- url: https://www.freebsd.org/status/report-2011-01-2011-03.html
+  src: /fbsd.jpg
+  title: 'FreeBSD Status Report Q1 2011: Apache 2.2 becomes default'
+  blurb: Contact for the www/apache22 default switch for 8.3 and 9.0
+  categories:
+    - FreeBSD
+    - ASF
+    - httpd
+    - Ports
 - url: https://www.freebsd.org/status/report-2010-07-2010-09.html
   src: /fbsd.jpg
   title: FreeBSD Status Report Q3 2010
