@@ -373,6 +373,15 @@
     - FreebSD
     - ZFS
     - Infrastructure
+- url: https://www.computerworld.com/article/1518852/apache-project-server-hacked-passwords-compromised.html
+  src: /hack.png
+  title: 'Computerworld: Apache project server hacked'
+  blurb: Quoted as VP of Apache infrastructure on the JIRA compromise, Apr 14 2010
+  categories:
+    - ASF
+    - Security
+    - Press
+    - Infrastructure
 - url: 'https://infra.apache.org/blog/apache_org_04_09_2010'
   src: /hack.png
   title: apache.org incident report for 04092010
