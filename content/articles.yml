@@ -382,6 +382,15 @@
     - ASF
     - Infrastructure
     - Security
+- url: https://metacpan.org/release/PGOLLUCCI/mod_perl-2.0.2
+  src: /perl.png
+  title: mod_perl 2.0.2 released to CPAN
+  blurb: First mod_perl release shipped under PGOLLUCCI, Oct 21 2005
+  categories:
+    - Open Source
+    - ASF
+    - mod_perl
+    - CPAN
 - url: https://mail-archive.freebsd.org/mail/archive/2002/freebsd-questions/20020310.freebsd-questions.html
   src: /fbsd.jpg
   title: FreeBSD 5.0-CURRENT buildworld thread
