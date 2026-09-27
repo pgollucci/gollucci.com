@@ -382,6 +382,15 @@
     - ASF
     - Infrastructure
     - Security
+- url: https://www.mail-archive.com/apreq-dev@httpd.apache.org/msg00763.html
+  src: /perl.png
+  title: Rolling RC2 for mod_perl, Apache-Test, and libapreq2
+  blurb: Coordinating three release trains at once while Sr. Software Engineer at Ticketmaster
+  categories:
+    - Open Source
+    - ASF
+    - apreq
+    - Release Management
 - url: https://lists.apache.org/thread/9cb957l9brvfx1g6btmwhy0gn193xvn1
   src: /perl.png
   title: '[ANNOUNCE] mod_perl 2.0.3'
