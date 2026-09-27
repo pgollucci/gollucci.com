@@ -382,6 +382,15 @@
     - ASF
     - Infrastructure
     - Security
+- url: https://www.apache.org/foundation/records/minutes/2010/board_minutes_2010_02_17.txt
+  src: /asf.png
+  title: ASF Board Minutes, Feb 17 2010
+  blurb: Officer present; negotiated the new Sun support contract for ASF infrastructure
+  categories:
+    - ASF
+    - Infrastructure
+    - Leadership
+    - Governance
 - url: https://httpd.apache.org/apreq/docs/libapreq2/apreq_changes.html
   src: /libapreq2.png
   title: libapreq2 build fixes credited in CHANGES
