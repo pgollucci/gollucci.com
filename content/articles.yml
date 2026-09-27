@@ -425,15 +425,6 @@
     - FreebSD
     - ZFS
     - Infrastructure
-- url: https://freebsdfoundation.org/news-and-events/newsletter/freebsd-foundation-newsletter-december-2011/
-  src: /community.png
-  title: FreeBSD Foundation Newsletter, December 2011
-  blurb: Both testimonials in one issue, credited as past VP of Apache Infrastructure and Director Operations, RideCharge
-  categories:
-    - FreeBSD
-    - ASF
-    - TaxiMagic
-    - Publication
 - url: https://www.apache.org/foundation/records/minutes/2011/board_minutes_2011_11_16.txt
   src: /asf.png
   title: ASF Board Minutes, Nov 16 2011
@@ -443,15 +434,6 @@
     - Infrastructure
     - Leadership
     - Governance
-- url: https://archive.apachecon.com/na2011/attachments/0002/3552/PG_Final_reprinted.pdf
-  src: /iasft.png
-  title: ApacheCon NA 2011 Program Guide, Vancouver
-  blurb: 'Two Friday Nov 11 sessions plus speaker bio: VP Apache Infrastructure, root@'
-  categories:
-    - ASF
-    - Speaker
-    - Conference
-    - Infrastructure
 - url: https://www.freebsd.org/status/report-2011-01-2011-03.html
   src: /fbsd.jpg
   title: 'FreeBSD Status Report Q1 2011: Apache 2.2 becomes default'
@@ -505,15 +487,6 @@
     - ASF
     - apreq
     - C
-- url: https://www.mail-archive.com/apreq-dev@httpd.apache.org/msg00763.html
-  src: /perl.png
-  title: Rolling RC2 for mod_perl, Apache-Test, and libapreq2
-  blurb: Coordinating three release trains at once while Sr. Software Engineer at Ticketmaster
-  categories:
-    - Open Source
-    - ASF
-    - apreq
-    - Release Management
 - url: https://lists.apache.org/thread/9cb957l9brvfx1g6btmwhy0gn193xvn1
   src: /perl.png
   title: '[ANNOUNCE] mod_perl 2.0.3'
