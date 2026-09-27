@@ -217,10 +217,10 @@
     - Leadership
     - Hiring
     - DEIB
-- url: https://github.com/p6m7g8/awesome-projen
+- url: https://github.com/projen/awesome
   src: /pj.png
   title: Awesome Projen
-  blurb: Curated projen ecosystem list, including p6-barrier and the ohmyzsh plugin
+  blurb: Curated projen ecosystem list, now maintained in the projen org
   categories:
     - Open Source
     - projen
