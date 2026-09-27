@@ -382,6 +382,14 @@
     - ASF
     - Infrastructure
     - Security
+- url: https://lists.apache.org/thread/9cb957l9brvfx1g6btmwhy0gn193xvn1
+  src: /perl.png
+  title: '[ANNOUNCE] mod_perl 2.0.3'
+  blurb: Release manager announcement, Nov 28 2006
+  categories:
+    - Open Source
+    - ASF
+    - mod_perl
 - url: https://metacpan.org/release/PGOLLUCCI/Apache-DBI-1.06
   src: /apache-dbi.png
   title: Packaging Apache::DBI for the community
