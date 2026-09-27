@@ -373,6 +373,15 @@
     - FreebSD
     - ZFS
     - Infrastructure
+- url: https://www.apache.org/foundation/records/minutes/2011/board_minutes_2011_11_16.txt
+  src: /asf.png
+  title: ASF Board Minutes, Nov 16 2011
+  blurb: Led the infra meetup on VP transition; Sam Ruby appointed successor
+  categories:
+    - ASF
+    - Infrastructure
+    - Leadership
+    - Governance
 - url: https://archive.apachecon.com/na2011/attachments/0002/3552/PG_Final_reprinted.pdf
   src: /iasft.png
   title: ApacheCon NA 2011 Program Guide, Vancouver
