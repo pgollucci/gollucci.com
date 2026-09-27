@@ -208,6 +208,15 @@
     - Work
     - Interviews
     - Community
+- url: https://github.com/p6m7g8/awesome-projen
+  src: /pj.png
+  title: Awesome Projen
+  blurb: Curated projen ecosystem list, including p6-barrier and the ohmyzsh plugin
+  categories:
+    - Open Source
+    - projen
+    - AWS
+    - GitHub
 - url: https://www.linkedin.com/posts/pgollucci_psa-projen-community-activity-6918185774270038016-pezb
   src: /pj.png
   title: projen virtual community meetup, June 30 2022
