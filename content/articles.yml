@@ -373,6 +373,14 @@
     - FreebSD
     - ZFS
     - Infrastructure
+- url: https://www.freebsd.org/status/report-2010-07-2010-09.html
+  src: /fbsd.jpg
+  title: FreeBSD Status Report Q3 2010
+  blurb: 'Especially Philip Gollucci: open ports PR count under 1,000 for the first time in years; 11 new NYI servers'
+  categories:
+    - FreeBSD
+    - Open Source
+    - Ports
 - url: https://www.computerworld.com/article/1518852/apache-project-server-hacked-passwords-compromised.html
   src: /hack.png
   title: 'Computerworld: Apache project server hacked'
