@@ -382,6 +382,13 @@
     - ASF
     - Infrastructure
     - Security
+- url: https://mail-archive.freebsd.org/mail/archive/2002/freebsd-questions/20020310.freebsd-questions.html
+  src: /fbsd.jpg
+  title: FreeBSD 5.0-CURRENT buildworld thread
+  blurb: Three posts on freebsd-questions, March 3 2002, earliest FreeBSD footprint
+  categories:
+    - FreeBSD
+    - Community
 - url: 'https://perl.apache.org/about/contributors/people.html'
   src: /perl.png
   title: Using Apache and mod_perl since September 1998
