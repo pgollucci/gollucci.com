@@ -347,6 +347,14 @@
     - Open Source
     - projen
     - AWS
+- url: https://forums.freebsd.org/threads/getting-to-know-your-portmgr-lurker-sunpoet.49306/
+  src: /fbsd.jpg
+  title: 'Getting to know your portmgr-lurker: sunpoet@'
+  blurb: I was mentored by Philip M. Gollucci (pgollucci@), Dec 3 2014
+  categories:
+    - FreeBSD
+    - Mentoring
+    - Community
 - url: 'http://archive.apachecon.com/2005/US/html/sessions.html#1571'
   src: /perl.png
   title: Trainer - ApacheCon US 2005 Full Day Tutorial - Practical mod_perl
