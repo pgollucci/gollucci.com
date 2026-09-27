@@ -208,6 +208,15 @@
     - Work
     - Interviews
     - Community
+- url: https://www.linkedin.com/posts/pgollucci_psa-projen-community-activity-6918185774270038016-pezb
+  src: /pj.png
+  title: projen virtual community meetup, June 30 2022
+  blurb: Organizer and CFP host for the first projen community meetup
+  categories:
+    - LinkedIn
+    - projen
+    - AWS
+    - Community
 - url: 'https://freebsdfoundation.org/testimonial/the-apache-software-foundation/'
   src: /asf.png
   title: Apache Software Foundation Partnership with FreeBSD
