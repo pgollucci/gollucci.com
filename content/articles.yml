@@ -347,6 +347,14 @@
     - Open Source
     - projen
     - AWS
+- url: https://docs.freebsd.org/en/articles/contributors/
+  src: /fbsd.jpg
+  title: FreeBSD Development Team Alumni, 2008 to 2015
+  blurb: Seven years holding a ports commit bit
+  categories:
+    - FreeBSD
+    - Open Source
+    - Ports
 - url: https://forums.freebsd.org/threads/getting-to-know-your-portmgr-lurker-sunpoet.49306/
   src: /fbsd.jpg
   title: 'Getting to know your portmgr-lurker: sunpoet@'
