@@ -373,6 +373,15 @@
     - FreebSD
     - ZFS
     - Infrastructure
+- url: https://archive.apachecon.com/na2011/attachments/0002/3552/PG_Final_reprinted.pdf
+  src: /iasft.png
+  title: ApacheCon NA 2011 Program Guide, Vancouver
+  blurb: 'Two Friday Nov 11 sessions plus speaker bio: VP Apache Infrastructure, root@'
+  categories:
+    - ASF
+    - Speaker
+    - Conference
+    - Infrastructure
 - url: https://www.freebsd.org/status/report-2011-01-2011-03.html
   src: /fbsd.jpg
   title: 'FreeBSD Status Report Q1 2011: Apache 2.2 becomes default'
