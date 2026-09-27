@@ -382,6 +382,15 @@
     - ASF
     - Infrastructure
     - Security
+- url: https://metacpan.org/release/PGOLLUCCI/Apache-DBI-1.06
+  src: /apache-dbi.png
+  title: Packaging Apache::DBI for the community
+  blurb: '11 CPAN releases, 0.98 (Jul 2005) through 1.07 (May 2008)'
+  categories:
+    - Open Source
+    - CPAN
+    - Perl
+    - Databases
 - url: https://metacpan.org/release/PGOLLUCCI/mod_perl-2.0.2
   src: /perl.png
   title: mod_perl 2.0.2 released to CPAN
