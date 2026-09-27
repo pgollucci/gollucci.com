@@ -355,9 +355,10 @@
   title: 'T-Rex: Most Customer Obsessed Mission Based Win - Federal Civilian.'
   blurb: '100% availability since the start of operations in March.'
   categories:
-    - The Tech Trek
-    - Podcast
-    - Agile
+    - AWS
+    - Public Sector
+    - T-Rex
+    - Award
 - url: 'https://dev.to/aws-builders/projen-external-project-types-je'
   src: /pj-ext-types.png
   title: Projen - External Project Types
