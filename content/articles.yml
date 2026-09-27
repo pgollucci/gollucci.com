@@ -414,9 +414,9 @@
     - Open Source
     - ASF
     - Infrastructure
-- url: 'https://docs.google.com/document/d/150GGT65l7lDxcWcei422YZ9WSAliTgehjDfJnGv-SEo/edit?pli=1'
+- url: 'https://docs.huihoo.com/apache/apachecon/us2011/11-Friday/C-Infrastructure-and-DevOps/C-1530-FreeBSD-ASF-software-philosphy-ZFS.pdf'
   src: /faspz.png
-  title: 'Presenter - ApacheCon 2012 Session - FreeBSD + ASF software & philosophy + ZFS == large $$ bonuses from your boss'
+  title: 'Presenter - ApacheCon NA 2011 Session - FreeBSD + ASF software & philosophy + ZFS == large $$ bonuses from your boss'
   blurb: Being appropriately lazy
   categories:
     - Open Source
