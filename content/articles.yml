@@ -897,6 +897,24 @@
     - ASF
     - mod_perl
     - CPAN
+- url: http://web.archive.org/web/20020727110602/http://dematha.org/
+  src: /dematha-sax-section.png
+  title: DeMatha Wind Ensemble saxophone section, 1998 to 2002
+  blurb: Pictured among the saxes under director John Mitchell; the photo ran on the DeMatha home page in 2002
+  categories:
+    - Music
+    - DeMatha
+    - Saxophone
+    - Photo
+- url: https://www.fox5dc.com/
+  src: /dematha-band-fox5.png
+  title: Played Aladdin on Fox 5 with the DeMatha band
+  blurb: Live television performance of the Aladdin medley with the DeMatha band; not on camera
+  categories:
+    - Music
+    - DeMatha
+    - Saxophone
+    - Television
 - url: https://scholars.umd.edu/articles/science-discovery-and-universe-scholars-program-close-after-successful-25-year-run
   src: /umd-sdu.png
   title: Taught webpage design and setup at College Park Scholars, 1999 to 2003
@@ -912,6 +930,33 @@
   categories:
     - FreeBSD
     - Community
+- url: http://web.archive.org/web/20010505071059/http://www.dematha.org/music/dmmuscal.htm
+  src: /dematha-pg-solo-2001.png
+  title: 'Prince George''s County Solo & Ensemble Festival, February 3 2001'
+  blurb: Largo High School; all DeMatha band students participate, per the 2000 to 2001 band calendar
+  categories:
+    - Music
+    - DeMatha
+    - Saxophone
+    - Festival
+- url: http://web.archive.org/web/19991128174505/http://www.dematha.org/music/dmmuscal1.htm
+  src: /dematha-pg-solo-2000.png
+  title: 'Prince George''s County Solo & Ensemble Festival, January 29 2000'
+  blurb: Largo High School; all DeMatha band students participate, per the 1999 to 2000 band calendar
+  categories:
+    - Music
+    - DeMatha
+    - Saxophone
+    - Festival
+- url: https://www.goucher.edu/
+  src: /goucher-band-camp.png
+  title: Goucher College summer band camp
+  blurb: Summer band camp on the Goucher campus in Towson, Maryland
+  categories:
+    - Music
+    - DeMatha
+    - Saxophone
+    - Summer Camp
 - url: https://near.jhuapl.edu/
   src: /umd-near.png
   title: Trained the NEAR mission team on IDL at UMCP Astronomy, 1999 to 2000
