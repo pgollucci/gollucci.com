@@ -254,13 +254,29 @@
     - AWS
     - Community
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
-  src: /cert-aws-cloud-practitioner.png
-  title: AWS Certified Cloud Practitioner
-  blurb: First earned Mar 2019, renewed Feb 2022, validation number 61LDF4J2LFB4Q7CK
+  src: /cert-aws-cloud-practitioner-2022.png
+  title: AWS Certified Cloud Practitioner (Feb 2022)
+  blurb: Renewed Feb 2022, validation number 61LDF4J2LFB4Q7CK
   categories:
     - Certification
     - AWS
     - Cloud
+- url: https://aws.amazon.com/developer/community/community-builders/
+  src: /awscb.png
+  title: AWS Community Builder, two cohorts (2021 to 2022)
+  blurb: DevTools, then Management, Governance and Migration; fewer than 2,100 builders ever
+  categories:
+    - Recognition
+    - AWS
+    - Community
+- url: https://www.databricks.com/learn/training/home
+  src: /cert-databricks-capstone.png
+  title: Databricks Capstone Foundations Program
+  blurb: Databricks Academy, Foundations Program capstone
+  categories:
+    - Certification
+    - Databricks
+    - Data
 - url: 'https://freebsdfoundation.org/testimonial/the-apache-software-foundation/'
   src: /asf.png
   title: Apache Software Foundation Partnership with FreeBSD
@@ -276,6 +292,14 @@
   categories:
     - Hiring
     - Recruiting
+- url: https://www.platohq.com/
+  src: /rec-mentor-plato.png
+  title: Mentor, PlatoHQ and LinkedIn
+  blurb: Engineering leadership mentoring for startup teams
+  categories:
+    - Recognition
+    - Mentoring
+    - Leadership
 - url: 'https://freebsdfoundation.org/blog/ridechargetaximagic-testimonial/'
   src: /fbsd.jpg
   title: RideCharge/TaxiMagic Testimonial
@@ -343,6 +367,22 @@
     - Data Engineering
     - Analytics
     - Systems Integration/Development
+- url: https://archiveprogram.github.com/arctic-vault/
+  src: /rec-arctic-vault.png
+  title: GitHub Arctic Code Vault Contributor
+  blurb: Code preserved in the 02/02/2020 snapshot, badge awarded July 2020
+  categories:
+    - Recognition
+    - GitHub
+    - Open Source
+- url: https://aws.amazon.com/blogs/publicsector/developers-guide-aws-public-sector-summit-online-2020/
+  src: /rec-aws-summit-2020.png
+  title: Top 0.001% in AWS Challenges, Worldwide Public Sector Summit 2020
+  blurb: June 30 2020, AWS Public Sector Summit Online
+  categories:
+    - Recognition
+    - AWS
+    - Public Sector
 - url: 'https://www.trexsolutionsllc.com/t-rex-uncomn-take-first-place-at-aws-public-sector-gameday-2020/'
   src: /gd.png
   title: T-Rex AWS Public Sector Gameday 2020
@@ -351,6 +391,30 @@
     - AWS
     - Gameday
     - Public Sector
+- url: https://iq.aws.amazon.com/
+  src: /rec-aws-iq.png
+  title: Member, AWS IQ Experts
+  blurb: One of 1,500 verified experts on AWS IQ
+  categories:
+    - Recognition
+    - AWS
+    - Consulting
+- url: https://aws.amazon.com/government-education/partners/
+  src: /rec-aws-pac.png
+  title: Member, AWS Worldwide Public Sector Partner Advisory Council
+  blurb: One of 400 seats, 2019 to 2021, through T-Rex Solutions
+  categories:
+    - Recognition
+    - AWS
+    - Public Sector
+- url: https://www.qubole.com/
+  src: /rec-qubole.png
+  title: Member, Qubole Customer Advisory Council
+  blurb: Customer advisory seat for the Qubole data platform
+  categories:
+    - Recognition
+    - Data
+    - Advisory
 - url: https://www.credly.com/badges/328afc91-a7a9-4b44-b74f-777d167f6c6f
   src: /cert-azure-fundamentals.png
   title: 'Microsoft Certified: Azure Fundamentals'
@@ -359,6 +423,14 @@
     - Certification
     - Azure
     - Microsoft
+- url: https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565
+  src: /cert-itil4.png
+  title: ITIL 4 Foundation
+  blurb: Axelos and PeopleCert
+  categories:
+    - Certification
+    - ITIL
+    - Service Management
 - url: https://www.credly.com/badges/9e591870-590f-493e-b24c-4bdd1663cfd8
   src: /cert-safe5-agilist.png
   title: Certified SAFe 5 Agilist
@@ -425,6 +497,15 @@
     - Open Source
     - projen
     - AWS
+- url: https://cdk.dev/
+  src: /rec-cdkdev.png
+  title: Member, CDK.dev
+  blurb: One of four members behind the CDK community site and Slack
+  categories:
+    - Recognition
+    - AWS
+    - CDK
+    - Community
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-security-specialty.png
   title: AWS Certified Security, Specialty
@@ -449,6 +530,22 @@
     - Certification
     - AWS
     - Developer
+- url: https://aws.amazon.com/partners/training/
+  src: /cert-apn-business.png
+  title: AWS Partner Network Business Professional
+  blurb: APN accreditation, earned Jul 2019
+  categories:
+    - Certification
+    - AWS
+    - APN
+- url: https://aws.amazon.com/partners/training/
+  src: /cert-apn-technical.png
+  title: AWS Partner Network Technical Professional
+  blurb: APN accreditation, earned Jul 2019
+  categories:
+    - Certification
+    - AWS
+    - APN
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-sysops-associate.png
   title: AWS Certified SysOps Administrator, Associate
@@ -458,13 +555,54 @@
     - AWS
     - Operations
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
-  src: /cert-aws-solutions-architect.png
-  title: AWS Certified Solutions Architect, Associate
-  blurb: First earned Jan 2016 (AWS-ASA-13327), renewed Mar 2019 (VHPFBMZCLNQ4Q0KR)
+  src: /cert-aws-solutions-architect-2019.png
+  title: AWS Certified Solutions Architect, Associate (Mar 2019)
+  blurb: Renewed Mar 2019, validation number VHPFBMZCLNQ4Q0KR
   categories:
     - Certification
     - AWS
     - Architecture
+- url: https://cp.certmetrics.com/amazon/en/public/verify/credential
+  src: /cert-aws-cloud-practitioner-2019.png
+  title: AWS Certified Cloud Practitioner (Mar 2019)
+  blurb: First earned Mar 2019, validation number 61LDF4J2LFB4Q7CK
+  categories:
+    - Certification
+    - AWS
+    - Cloud
+- url: https://cdk8s.io/
+  src: /rec-cdk8s.png
+  title: Cloud Native Computing Foundation contributor, cdk8s
+  blurb: CNCF contributor since Oct 2018
+  categories:
+    - Recognition
+    - CNCF
+    - Kubernetes
+    - Open Source
+- url: https://cp.certmetrics.com/amazon/en/public/verify/credential
+  src: /cert-aws-solutions-architect-2016.png
+  title: AWS Certified Solutions Architect, Associate (Jan 2016)
+  blurb: First earned Jan 2016, validation number AWS-ASA-13327
+  categories:
+    - Certification
+    - AWS
+    - Architecture
+- url: https://github.com/freebsd/freebsd-ports/graphs/contributors
+  src: /rec-freebsd-top30.png
+  title: Top 30 FreeBSD ports committer, ever
+  blurb: 18th most changes to the ports tree world wide
+  categories:
+    - Recognition
+    - FreeBSD
+    - Open Source
+- url: https://docs.freebsd.org/en/articles/committers-guide/#mentors
+  src: /rec-freebsd-mentor.png
+  title: Mentor, FreeBSD Foundation
+  blurb: Mentored new ports committers, including sunpoet@
+  categories:
+    - Recognition
+    - FreeBSD
+    - Mentoring
 - url: https://docs.freebsd.org/en/articles/contributors/
   src: /fbsd.jpg
   title: FreeBSD Development Team Alumni, 2008 to 2015
@@ -507,6 +645,14 @@
     - FreebSD
     - ZFS
     - Infrastructure
+- url: https://www.apache.org/foundation/members.html
+  src: /asf.png
+  title: Board Officer and Member, Apache Software Foundation
+  blurb: Vice President of Infrastructure 2009 to 2011, ASF Member since 2005
+  categories:
+    - Recognition
+    - ASF
+    - Leadership
 - url: https://www.apache.org/foundation/records/minutes/2011/board_minutes_2011_11_16.txt
   src: /asf.png
   title: ASF Board Minutes, Nov 16 2011
