@@ -759,6 +759,16 @@
     - ASF
     - httpd
     - Ports
+- url: https://www.youtube.com/watch?v=nKFvpgD3LFk
+  src: /apachecon-2010-lightning-talk.png
+  title: ApacheCon NA 2010 Lightning Talk
+  blurb: Five minute lightning talk in Atlanta, November 2010, recorded by Christopher Gross
+  categories:
+    - Video
+    - YouTube
+    - ASF
+    - Speaker
+    - Conference
 - url: https://www.freebsd.org/status/report-2010-07-2010-09.html
   src: /fbsd.jpg
   title: FreeBSD Status Report Q3 2010
@@ -887,6 +897,14 @@
     - ASF
     - mod_perl
     - CPAN
+- url: https://scholars.umd.edu/articles/science-discovery-and-universe-scholars-program-close-after-successful-25-year-run
+  src: /umd-sdu.png
+  title: Taught webpage design and setup at College Park Scholars, 1999 to 2003
+  blurb: 'Science, Discovery and the Universe program, 10 to 20 students per semester: Unix, HTML, JavaScript, Perl, MySQL, Apache, FreeBSD'
+  categories:
+    - Teaching
+    - UMD
+    - Community
 - url: https://mail-archive.freebsd.org/mail/archive/2002/freebsd-questions/20020310.freebsd-questions.html
   src: /fbsd.jpg
   title: FreeBSD 5.0-CURRENT buildworld thread
@@ -894,6 +912,14 @@
   categories:
     - FreeBSD
     - Community
+- url: https://near.jhuapl.edu/
+  src: /umd-near.png
+  title: Trained the NEAR mission team on IDL at UMCP Astronomy, 1999 to 2000
+  blurb: NASA Near Earth Asteroid Rendezvous mission, data verification software and IDL training
+  categories:
+    - Teaching
+    - NASA
+    - UMD
 - url: 'https://perl.apache.org/about/contributors/people.html'
   src: /perl.png
   title: Using Apache and mod_perl since September 1998
