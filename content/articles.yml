@@ -64,6 +64,15 @@
     - LinkedIn
     - SSI
     - Sales
+- url: https://www.globenewswire.com/news-release/2023/08/21/2728985/0/en/GREATER-GOOD-CHARITIES-IN-PARTNERSHIP-WITH-SOUTHWEST-AIRLINES-AND-LUCKY-DOG-ANIMAL-RESCUE-TRANSPORTS-HUMANITARIAN-SUPPLIES-TO-MAUI-AND-OPERATES-EMERGENCY-AIRLIFT-OF-MORE-THAN-130-S.html
+  src: /ldar-maui.png
+  title: Responded to the Maui fires and Hurricane Idalia in 2023, taking displaced animals
+  blurb: Southwest airlift of more than 130 Maui shelter pets with Greater Good Charities, August 2023
+  categories:
+    - Community
+    - Animal Rescue
+    - LDAR
+    - Disaster Response
 - url: 'https://www.linkedin.com/posts/pgollucci_cto-vpe-or-both-activity-7092145529152802816-c_d5'
   src: /crossroads.png
   title: 'CTO, VPE, or both?'
@@ -349,6 +358,23 @@
     - Community
     - Animal Rescue
     - LDAR
+- url: https://www.luckydoganimalrescue.org/foster
+  src: /ldar-foster.png
+  title: Fostered over 350 dogs
+  blurb: Foster, driver, handler, home visits and adoption events with Lucky Dog Animal Rescue since 2015
+  categories:
+    - Community
+    - Animal Rescue
+    - LDAR
+- url: https://kauaihumane.org/
+  src: /ldar-kauai.png
+  title: Traveled to Puerto Rico, Thailand, and Hawaii rescuing animals from high kill shelters
+  blurb: Including transports for the Kauai Humane Society
+  categories:
+    - Community
+    - Animal Rescue
+    - LDAR
+    - Transport
 - url: 'https://www.linkedin.com/in/pgollucci/overlay/experience/1776016144/multiple-media-viewer/?profileId=ACoAAAAkAjIBvri83i3r_o3Mh79PBzHfAmo5hD4&treasuryMediaId=1635456488437'
   src: /ttt.png
   title: Predictability vs Forecasting Empowers Decision Making
@@ -391,6 +417,15 @@
     - Recognition
     - AWS
     - Public Sector
+- url: https://www.luckydoganimalrescue.org/articles/2020-06/press-release/lucky-dog-saves-62-lives-puerto-rico
+  src: /ldar-pr-62.png
+  title: 'Puerto Rico COVID-19 2020: foster and rescue of 62 dogs'
+  blurb: Sponsored relief flight pulled together in three days, June 2020
+  categories:
+    - Community
+    - Animal Rescue
+    - LDAR
+    - Puerto Rico
 - url: 'https://www.trexsolutionsllc.com/t-rex-uncomn-take-first-place-at-aws-public-sector-gameday-2020/'
   src: /gd.png
   title: T-Rex AWS Public Sector Gameday 2020
@@ -522,6 +557,16 @@
     - AWS
     - CDK
     - Community
+- url: https://wjla.com/news/local/dogs-rescued-after-puerto-rican-earthquake-find-homes-in-dc
+  src: /ldar-pr-earthquake.png
+  title: 'Puerto Rico earthquake response 2019: 14,000 pounds of food and water, 78 dogs rescued'
+  blurb: Relief supplies in and dogs out with Lucky Dog Animal Rescue; ABC7 WJLA coverage
+  categories:
+    - Community
+    - Animal Rescue
+    - LDAR
+    - Puerto Rico
+    - Disaster Response
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-security-specialty.png
   title: AWS Certified Security, Specialty
@@ -530,6 +575,15 @@
     - Certification
     - AWS
     - Security
+- url: https://luckydoganimalrescue.salsalabs.org/luckydoganimalrescuessym2019/index.html
+  src: /ldar-sym2019.png
+  title: '1st place national fundraising team, Best Friends Strut Your Mutt 2019'
+  blurb: Lucky Dog Animal Rescue team, October 5 2019
+  categories:
+    - Community
+    - Animal Rescue
+    - LDAR
+    - Fundraising
 - url: https://www.credly.com/badges/09de123b-6cf0-4b84-aa2e-54c4c15041be
   src: /cert-safe4-devops.png
   title: Certified SAFe 4 DevOps Practitioner
@@ -562,6 +616,15 @@
     - Certification
     - AWS
     - APN
+- url: https://pages.awscloud.com/rs/112-TZM-766/images/2019_DC_Summit_Federal_Industry_Guide.pdf
+  src: /ldar-aws-summit-2019.png
+  title: Represented Lucky Dog Animal Rescue at the AWS Worldwide Public Sector Summit 2019
+  blurb: Washington, DC, June 2019
+  categories:
+    - Community
+    - Animal Rescue
+    - LDAR
+    - AWS
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-sysops-associate.png
   title: AWS Certified SysOps Administrator, Associate
@@ -595,6 +658,15 @@
     - CNCF
     - Kubernetes
     - Open Source
+- url: https://www.luckydoganimalrescue.org/taxonomy/term/41
+  src: /ldar-hurricanes.png
+  title: National crisis response to all US hurricanes in 2018
+  blurb: Florence evacuation alone moved 55 dogs and 22 cats north in one day
+  categories:
+    - Community
+    - Animal Rescue
+    - LDAR
+    - Disaster Response
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-solutions-architect-2016.png
   title: AWS Certified Solutions Architect, Associate (Jan 2016)
