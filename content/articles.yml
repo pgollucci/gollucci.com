@@ -152,6 +152,14 @@
     - AWS
     - AI/ML
     - Smart
+- url: https://www.credly.com/badges/5eba85bd-d993-4d71-ab08-bec41b92bfbe
+  src: /cert-ibm-design-thinking.png
+  title: Enterprise Design Thinking Practitioner
+  blurb: IBM, issued Feb 2023, verified on Credly
+  categories:
+    - Certification
+    - IBM
+    - Design Thinking
 - url: 'https://www.linkedin.com/pulse/certifications-treasures-trash-philip-gollucci/'
   src: /certifications.png
   title: 'Certifications: Treasures or Trash'
@@ -245,6 +253,14 @@
     - projen
     - AWS
     - Community
+- url: https://cp.certmetrics.com/amazon/en/public/verify/credential
+  src: /cert-aws-cloud-practitioner.png
+  title: AWS Certified Cloud Practitioner
+  blurb: Earned Mar 2019, renewed Feb 2022, validation number 61LDF4J2LFB4Q7CK
+  categories:
+    - Certification
+    - AWS
+    - Cloud
 - url: 'https://freebsdfoundation.org/testimonial/the-apache-software-foundation/'
   src: /asf.png
   title: Apache Software Foundation Partnership with FreeBSD
@@ -335,6 +351,22 @@
     - AWS
     - Gameday
     - Public Sector
+- url: https://www.credly.com/badges/328afc91-a7a9-4b44-b74f-777d167f6c6f
+  src: /cert-azure-fundamentals.png
+  title: 'Microsoft Certified: Azure Fundamentals'
+  blurb: Microsoft, issued Jul 2020, verified on Credly
+  categories:
+    - Certification
+    - Azure
+    - Microsoft
+- url: https://www.credly.com/badges/9e591870-590f-493e-b24c-4bdd1663cfd8
+  src: /cert-safe5-agilist.png
+  title: Certified SAFe 5 Agilist
+  blurb: Scaled Agile, issued May 2020, verified on Credly
+  categories:
+    - Certification
+    - SAFe
+    - Agile
 - url: 'https://www.trexsolutionsllc.com/t-rex-at-aws-reinvent-2020/'
   src: /reinvent.png
   title: 'T-Rex at AWS re:Invent 2020'
@@ -393,6 +425,46 @@
     - Open Source
     - projen
     - AWS
+- url: https://cp.certmetrics.com/amazon/en/public/verify/credential
+  src: /cert-aws-security-specialty.png
+  title: AWS Certified Security, Specialty
+  blurb: Issued Dec 2019, validation number 2TZ3SDRCNJF41NW9; exam question author
+  categories:
+    - Certification
+    - AWS
+    - Security
+- url: https://www.credly.com/badges/09de123b-6cf0-4b84-aa2e-54c4c15041be
+  src: /cert-safe4-devops.png
+  title: Certified SAFe 4 DevOps Practitioner
+  blurb: Scaled Agile, issued Oct 2019, verified on Credly
+  categories:
+    - Certification
+    - SAFe
+    - DevOps
+- url: https://cp.certmetrics.com/amazon/en/public/verify/credential
+  src: /cert-aws-developer-associate.png
+  title: AWS Certified Developer, Associate
+  blurb: Issued Sep 2019, validation number 1SK4MT41EM1EQ4SC
+  categories:
+    - Certification
+    - AWS
+    - Developer
+- url: https://cp.certmetrics.com/amazon/en/public/verify/credential
+  src: /cert-aws-sysops-associate.png
+  title: AWS Certified SysOps Administrator, Associate
+  blurb: Issued Apr 2019, validation number 3R7PTXNKBNQEQS50; exam contributor
+  categories:
+    - Certification
+    - AWS
+    - Operations
+- url: https://cp.certmetrics.com/amazon/en/public/verify/credential
+  src: /cert-aws-solutions-architect.png
+  title: AWS Certified Solutions Architect, Associate
+  blurb: Earned Jan 2016 (AWS-ASA-13327), renewed Mar 2019 (VHPFBMZCLNQ4Q0KR)
+  categories:
+    - Certification
+    - AWS
+    - Architecture
 - url: https://docs.freebsd.org/en/articles/contributors/
   src: /fbsd.jpg
   title: FreeBSD Development Team Alumni, 2008 to 2015
