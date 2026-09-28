@@ -40,7 +40,7 @@ function About(): ReactElement {
           />
         </div>
         <div className="ml-4">
-          <h4 className="text-2xl">Two time AWS Community Builder, 2021 to 2022 (alumni), one of about 2,000 world wide.</h4>
+          <h4 className="text-2xl">Two time AWS Community Builder, 2020 to 2022 (alumni), one of about 2,000 world wide.</h4>
           <ul className="ml-8 list-disc">
             <li>Led the winning (1st place) World Wide Public Sector team, May 2020</li>
             <li>Placed in the top 0.001% of AWS Challenges at Worldwide Public Sector AWS Summit June 30, 2020</li>

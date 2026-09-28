@@ -261,10 +261,18 @@
     - Certification
     - AWS
     - Cloud
+- url: https://cp.certmetrics.com/amazon/en/public/verify/credential
+  src: /cert-aws-cloud-practitioner-renewal.png
+  title: AWS Certified Cloud Practitioner (renewal)
+  blurb: Third attainment, validation number 61LDF4J2LFB4Q7CK
+  categories:
+    - Certification
+    - AWS
+    - Cloud
 - url: https://aws.amazon.com/developer/community/community-builders/
   src: /awscb.png
-  title: AWS Community Builder, two cohorts (2021 to 2022)
-  blurb: DevTools, then Management, Governance and Migration; fewer than 2,100 builders ever
+  title: AWS Community Builder, 2021 to 2022 term
+  blurb: Second one year term, issued Oct 2021; fewer than 2,100 builders ever
   categories:
     - Recognition
     - AWS
@@ -426,7 +434,7 @@
 - url: https://www.peoplecert.org/browse-certifications/it-governance-and-service-management/ITIL-1/itil-4-foundation-2565
   src: /cert-itil4.png
   title: ITIL 4 Foundation
-  blurb: Axelos and PeopleCert
+  blurb: PeopleCert, issued Dec 2020, credential GR671215744PG
   categories:
     - Certification
     - ITIL
@@ -447,6 +455,14 @@
     - AWS
     - 're:Invent'
     - '2020'
+- url: https://aws.amazon.com/developer/community/community-builders/
+  src: /awscb.png
+  title: AWS Community Builder, 2020 to 2021 term
+  blurb: First one year term, issued Oct 2020
+  categories:
+    - Recognition
+    - AWS
+    - Community
 - url: 'https://www.trexsolutionsllc.com/t-rexs-ai-ml-experience-through-apn-immersion-day/'
   src: /immersion.png
   title: T-Rex AI/ML Experience through APN Immersion Day
@@ -705,6 +721,64 @@
     - ASF
     - Infrastructure
     - Leadership
+    - Governance
+- url: https://subversion.apache.org/
+  src: /asf-subversion.png
+  title: Committer, Apache Subversion
+  blurb: Commit bit on the Subversion project
+  categories:
+    - Open Source
+    - ASF
+    - Subversion
+- url: https://apr.apache.org/
+  src: /asf-apr.png
+  title: Committer, Apache Portable Runtime
+  blurb: apr commit bit, listed in the ASF committer index
+  categories:
+    - Open Source
+    - ASF
+    - APR
+- url: https://httpd.apache.org/apreq/
+  src: /asf-apreq.png
+  title: Committer, Apache libapreq
+  blurb: libapreq2 commit bit under the HTTP Server project
+  categories:
+    - Open Source
+    - ASF
+    - apreq
+- url: https://httpd.apache.org/
+  src: /asf-httpd.png
+  title: Committer, Apache HTTP Server
+  blurb: httpd commit bit, listed in the ASF committer index
+  categories:
+    - Open Source
+    - ASF
+    - httpd
+- url: https://people.apache.org/committer-index.html
+  src: /asf-httpd-pmc.png
+  title: PMC member, Apache HTTP Server
+  blurb: httpd-pmc, listed in the ASF committer index
+  categories:
+    - Open Source
+    - ASF
+    - httpd
+    - Governance
+- url: https://perl.apache.org/
+  src: /asf-modperl.png
+  title: Committer, Apache mod_perl
+  blurb: perl commit bit; release manager for mod_perl 2.0.2 and 2.0.3
+  categories:
+    - Open Source
+    - ASF
+    - mod_perl
+- url: https://people.apache.org/committer-index.html
+  src: /asf-modperl-pmc.png
+  title: PMC member, Apache mod_perl
+  blurb: perl-pmc, listed in the ASF committer index
+  categories:
+    - Open Source
+    - ASF
+    - mod_perl
     - Governance
 - url: https://httpd.apache.org/apreq/docs/libapreq2/apreq_changes.html
   src: /libapreq2.png
