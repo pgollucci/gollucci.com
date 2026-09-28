@@ -256,7 +256,7 @@
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-cloud-practitioner.png
   title: AWS Certified Cloud Practitioner
-  blurb: Earned Mar 2019, renewed Feb 2022, validation number 61LDF4J2LFB4Q7CK
+  blurb: First earned Mar 2019, renewed Feb 2022, validation number 61LDF4J2LFB4Q7CK
   categories:
     - Certification
     - AWS
@@ -428,7 +428,7 @@
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-security-specialty.png
   title: AWS Certified Security, Specialty
-  blurb: Issued Dec 2019, validation number 2TZ3SDRCNJF41NW9; exam question author
+  blurb: First earned Dec 2019, validation number 2TZ3SDRCNJF41NW9; exam question author
   categories:
     - Certification
     - AWS
@@ -444,7 +444,7 @@
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-developer-associate.png
   title: AWS Certified Developer, Associate
-  blurb: Issued Sep 2019, validation number 1SK4MT41EM1EQ4SC
+  blurb: First earned Sep 2019, validation number 1SK4MT41EM1EQ4SC
   categories:
     - Certification
     - AWS
@@ -452,7 +452,7 @@
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-sysops-associate.png
   title: AWS Certified SysOps Administrator, Associate
-  blurb: Issued Apr 2019, validation number 3R7PTXNKBNQEQS50; exam contributor
+  blurb: First earned Apr 2019, validation number 3R7PTXNKBNQEQS50; exam contributor
   categories:
     - Certification
     - AWS
@@ -460,7 +460,7 @@
 - url: https://cp.certmetrics.com/amazon/en/public/verify/credential
   src: /cert-aws-solutions-architect.png
   title: AWS Certified Solutions Architect, Associate
-  blurb: Earned Jan 2016 (AWS-ASA-13327), renewed Mar 2019 (VHPFBMZCLNQ4Q0KR)
+  blurb: First earned Jan 2016 (AWS-ASA-13327), renewed Mar 2019 (VHPFBMZCLNQ4Q0KR)
   categories:
     - Certification
     - AWS
