@@ -26,6 +26,17 @@
     - Conference
     - Optimal
     - Speaker
+- url: https://www.linkedin.com/feed/update/urn:li:activity:7323407366052360193/
+  src: /arkestro-soc2-2025.png
+  title: Arkestro renews SOC 2 Type II with zero findings
+  blurb: April 2025 Prescient Security audit, zero findings, Security Trust Services Category
+  categories:
+    - Governance
+    - Risk
+    - Compliance
+    - SOC2
+    - Arkestro
+    - Security
 - url: 'https://www.linkedin.com/posts/pgollucci_do-most-startup-hiring-managers-think-a-cs-activity-7314988882192707585-c8et'
   src: /your-next-tech-startup-podcast.jpg
   title: 'Engineering Leadership Hiring Stories: Philip Gollucci'
@@ -54,6 +65,18 @@
     - Risk
     - Compliance
     - ISO27001
+    - Arkestro
+    - Security
+- url: https://www.linkedin.com/feed/update/urn:li:activity:7115692126834708481/
+  src: /arkestro-iso27001-soc2-2023.png
+  title: Arkestro earns ISO/IEC 27001 certification and passes its third SOC 2 Type II
+  blurb: October 2023 Prescient Security audits of the Predictive Procurement Orchestration Platform
+  categories:
+    - Governance
+    - Risk
+    - Compliance
+    - ISO27001
+    - SOC2
     - Arkestro
     - Security
 - url: 'https://www.gollucci.com/linkedin-ssi-202308.png'
